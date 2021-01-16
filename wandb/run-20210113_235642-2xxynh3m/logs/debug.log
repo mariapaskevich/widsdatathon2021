@@ -1,0 +1,56 @@
+2021-01-13 23:56:42,165 INFO    MainThread:25900 [wandb_setup.py:_flush():70] setting env: {}
+2021-01-13 23:56:42,166 INFO    MainThread:25900 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-01-13 23:56:42,166 INFO    MainThread:25900 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-01-13 23:56:42,166 INFO    MainThread:25900 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7efdf690a350>
+2021-01-13 23:56:42,166 INFO    MainThread:25900 [wandb_init.py:_log_setup():318] Logging user logs to /home/jupyter/wids/wandb/run-20210113_235642-2xxynh3m/logs/debug.log
+2021-01-13 23:56:42,167 INFO    MainThread:25900 [wandb_init.py:_log_setup():319] Logging internal logs to /home/jupyter/wids/wandb/run-20210113_235642-2xxynh3m/logs/debug-internal.log
+2021-01-13 23:56:42,168 INFO    MainThread:25900 [wandb_run.py:finish():983] finishing run mariapaskevich/wids2021/u1v9h1wv
+2021-01-13 23:56:42,169 INFO    MainThread:25900 [wandb_init.py:_jupyter_teardown():249] cleaning up jupyter logic
+2021-01-13 23:56:42,169 INFO    MainThread:25900 [jupyter.py:save_history():208] not saving jupyter history
+2021-01-13 23:56:42,169 INFO    MainThread:25900 [wandb_run.py:_atexit_cleanup():1278] got exitcode: 0
+2021-01-13 23:56:42,169 INFO    MainThread:25900 [wandb_run.py:_restore():1250] restore
+2021-01-13 23:56:42,319 INFO    MainThread:25900 [wandb_run.py:_wait_for_finish():1395] got exit ret: uuid: "499509c1503b4a57a6d1041f19c4d934"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 595
+      total_bytes: 595
+    }
+  }
+}
+
+2021-01-13 23:56:44,327 INFO    MainThread:25900 [wandb_run.py:_wait_for_finish():1395] got exit ret: uuid: "3bdfa6e9d9a44f0993d1e3f2de5be067"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 21491
+      total_bytes: 21491
+    }
+  }
+}
+
+2021-01-13 23:56:45,759 INFO    MainThread:25900 [wandb_run.py:_show_summary():1547] rendering summary
+2021-01-13 23:56:45,760 INFO    MainThread:25900 [wandb_run.py:_show_history():1585] rendering history
+2021-01-13 23:56:45,762 INFO    MainThread:25900 [wandb_run.py:_show_files():1614] logging synced files
+2021-01-13 23:56:48,658 INFO    MainThread:25900 [wandb_run.py:_console_start():1308] atexit reg
+2021-01-13 23:56:48,658 INFO    MainThread:25900 [wandb_run.py:_redirect():1175] redirect: SettingsConsole.WRAP
+2021-01-13 23:56:48,658 INFO    MainThread:25900 [wandb_run.py:_redirect():1206] Wrapping output streams.
+2021-01-13 23:56:48,658 INFO    MainThread:25900 [wandb_run.py:_redirect():1222] Redirects installed.
+2021-01-13 23:56:48,673 INFO    MainThread:25900 [wandb_run.py:_config_callback():608] config_cb None None {'learning_rate': 0.05, 'num_leaves': 50, 'n_estimators': 1000, 'metric': 'auc', 'objective': 'binary'}
+2021-01-13 23:58:08,151 INFO    MainThread:25900 [wandb_init.py:_jupyter_setup():270] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7efd6c07a890>
+2021-01-13 23:58:08,154 INFO    MainThread:25900 [wandb_setup.py:_flush():70] setting env: {}
+2021-01-13 23:58:08,156 INFO    MainThread:25900 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-01-13 23:58:08,156 INFO    MainThread:25900 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-01-13 23:58:08,156 INFO    MainThread:25900 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7efdf690a350>
+2021-01-13 23:58:08,156 INFO    MainThread:25900 [wandb_init.py:_log_setup():318] Logging user logs to /home/jupyter/wids/wandb/run-20210113_235808-2utzp12i/logs/debug.log
+2021-01-13 23:58:08,156 INFO    MainThread:25900 [wandb_init.py:_log_setup():319] Logging internal logs to /home/jupyter/wids/wandb/run-20210113_235808-2utzp12i/logs/debug-internal.log
+2021-01-13 23:58:08,157 INFO    MainThread:25900 [wandb_run.py:finish():983] finishing run mariapaskevich/wids_2021/2xxynh3m

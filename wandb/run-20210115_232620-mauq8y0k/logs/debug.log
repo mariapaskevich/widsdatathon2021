@@ -1,0 +1,23 @@
+2021-01-15 23:26:20,912 INFO    MainThread:1879 [wandb_setup.py:_flush():70] setting env: {}
+2021-01-15 23:26:20,913 INFO    MainThread:1879 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-01-15 23:26:20,913 INFO    MainThread:1879 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-01-15 23:26:20,913 INFO    MainThread:1879 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fdcbabdbf10>
+2021-01-15 23:26:20,913 INFO    MainThread:1879 [wandb_init.py:_log_setup():318] Logging user logs to /home/jupyter/wids/wandb/run-20210115_232620-mauq8y0k/logs/debug.log
+2021-01-15 23:26:20,913 INFO    MainThread:1879 [wandb_init.py:_log_setup():319] Logging internal logs to /home/jupyter/wids/wandb/run-20210115_232620-mauq8y0k/logs/debug-internal.log
+2021-01-15 23:26:23,739 INFO    MainThread:1879 [wandb_run.py:_console_start():1308] atexit reg
+2021-01-15 23:26:23,739 INFO    MainThread:1879 [wandb_run.py:_redirect():1175] redirect: SettingsConsole.WRAP
+2021-01-15 23:26:23,739 INFO    MainThread:1879 [wandb_run.py:_redirect():1206] Wrapping output streams.
+2021-01-15 23:26:23,740 INFO    MainThread:1879 [wandb_run.py:_redirect():1222] Redirects installed.
+2021-01-15 23:26:23,740 INFO    MainThread:1879 [wandb_init.py:_pause_backend():239] pausing backend
+2021-01-15 23:26:23,752 INFO    MainThread:1879 [wandb_init.py:_resume_backend():244] resuming backend
+2021-01-15 23:26:23,753 INFO    MainThread:1879 [wandb_init.py:_pause_backend():239] pausing backend
+2021-01-15 23:26:23,761 INFO    MainThread:1879 [wandb_init.py:_resume_backend():244] resuming backend
+2021-01-15 23:26:23,762 INFO    MainThread:1879 [wandb_run.py:_config_callback():608] config_cb None None {'learning_rate': 0.05, 'num_leaves': 100, 'n_estimators': 1000, 'metric': 'auc', 'objective': 'binary'}
+2021-01-15 23:26:51,882 INFO    MainThread:1879 [wandb_init.py:_pause_backend():239] pausing backend
+2021-01-15 23:28:13,090 INFO    MainThread:1879 [wandb_init.py:_resume_backend():244] resuming backend
+2021-01-15 23:28:13,361 INFO    MainThread:1879 [wandb_init.py:_pause_backend():239] pausing backend
+2021-01-15 23:28:26,207 INFO    MainThread:1879 [wandb_init.py:_resume_backend():244] resuming backend
+2021-01-15 23:28:33,007 INFO    MainThread:1879 [wandb_init.py:_pause_backend():239] pausing backend
+2021-01-15 23:28:37,285 INFO    MainThread:1879 [wandb_init.py:_resume_backend():244] resuming backend
+2021-01-15 23:28:37,286 INFO    MainThread:1879 [wandb_init.py:_pause_backend():239] pausing backend
+2021-01-15 23:28:38,586 INFO    MainThread:1879 [wandb_init.py:_resume_backend():244] resuming backend

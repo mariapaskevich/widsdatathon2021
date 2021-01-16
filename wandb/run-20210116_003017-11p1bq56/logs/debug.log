@@ -1,0 +1,63 @@
+2021-01-16 00:30:17,933 INFO    MainThread:9660 [wandb_setup.py:_flush():70] setting env: {}
+2021-01-16 00:30:17,933 INFO    MainThread:9660 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-01-16 00:30:17,933 INFO    MainThread:9660 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-01-16 00:30:17,933 INFO    MainThread:9660 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f28b101d050>
+2021-01-16 00:30:17,934 INFO    MainThread:9660 [wandb_init.py:_log_setup():318] Logging user logs to /home/jupyter/wids/wandb/run-20210116_003017-11p1bq56/logs/debug.log
+2021-01-16 00:30:17,935 INFO    MainThread:9660 [wandb_init.py:_log_setup():319] Logging internal logs to /home/jupyter/wids/wandb/run-20210116_003017-11p1bq56/logs/debug-internal.log
+2021-01-16 00:30:17,936 INFO    MainThread:9660 [wandb_run.py:finish():983] finishing run mariapaskevich/wids_2021/37ahmq1g
+2021-01-16 00:30:17,936 INFO    MainThread:9660 [wandb_init.py:_jupyter_teardown():249] cleaning up jupyter logic
+2021-01-16 00:30:17,937 INFO    MainThread:9660 [jupyter.py:save_history():208] not saving jupyter history
+2021-01-16 00:30:17,937 INFO    MainThread:9660 [wandb_run.py:_atexit_cleanup():1278] got exitcode: 0
+2021-01-16 00:30:17,937 INFO    MainThread:9660 [wandb_run.py:_restore():1250] restore
+2021-01-16 00:30:18,101 INFO    MainThread:9660 [wandb_run.py:_wait_for_finish():1395] got exit ret: uuid: "d7e54211fd814bfe81d332385fc1ea36"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 805
+      total_bytes: 805
+    }
+  }
+}
+
+2021-01-16 00:30:20,111 INFO    MainThread:9660 [wandb_run.py:_wait_for_finish():1395] got exit ret: uuid: "e3aa43f5ca784d8899dd52221b6792ec"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 27380
+      total_bytes: 27380
+    }
+  }
+}
+
+2021-01-16 00:30:21,554 INFO    MainThread:9660 [wandb_run.py:_show_summary():1547] rendering summary
+2021-01-16 00:30:21,556 INFO    MainThread:9660 [wandb_run.py:_show_history():1585] rendering history
+2021-01-16 00:30:21,558 INFO    MainThread:9660 [wandb_run.py:_show_files():1614] logging synced files
+2021-01-16 00:30:24,451 INFO    MainThread:9660 [wandb_run.py:_console_start():1308] atexit reg
+2021-01-16 00:30:24,451 INFO    MainThread:9660 [wandb_run.py:_redirect():1175] redirect: SettingsConsole.WRAP
+2021-01-16 00:30:24,451 INFO    MainThread:9660 [wandb_run.py:_redirect():1206] Wrapping output streams.
+2021-01-16 00:30:24,452 INFO    MainThread:9660 [wandb_run.py:_redirect():1222] Redirects installed.
+2021-01-16 00:30:32,875 INFO    MainThread:9660 [wandb_run.py:_config_callback():608] config_cb None None {'learning_rate': 0.05, 'num_leaves': 100, 'n_estimators': 1000, 'metric': 'auc', 'objective': 'binary'}
+2021-01-16 00:51:59,427 INFO    MainThread:9660 [wandb_run.py:_config_callback():608] config_cb None None {'learning_rate': 0.05, 'num_leaves': 100, 'n_estimators': 1000, 'metric': 'auc', 'objective': 'binary', 'scale_pos_weight': 0.8}
+2021-01-16 00:53:32,175 INFO    MainThread:9660 [wandb_run.py:_config_callback():608] config_cb None None {'learning_rate': 0.05, 'num_leaves': 100, 'n_estimators': 1000, 'metric': 'auc', 'objective': 'binary', 'scale_pos_weight': 4}
+2021-01-16 00:53:48,748 INFO    MainThread:9660 [wandb_run.py:_config_callback():608] config_cb None None {'learning_rate': 0.05, 'num_leaves': 100, 'n_estimators': 1000, 'metric': 'auc', 'objective': 'binary', 'scale_pos_weight': 4}
+2021-01-16 00:56:23,750 INFO    MainThread:9660 [wandb_run.py:_config_callback():608] config_cb None None {'learning_rate': 0.05, 'num_leaves': 100, 'n_estimators': 1000, 'metric': 'auc', 'objective': 'binary'}
+2021-01-16 00:57:54,563 INFO    MainThread:9660 [wandb_run.py:_config_callback():608] config_cb None None {'learning_rate': 0.05, 'num_leaves': 100, 'n_estimators': 200, 'metric': 'auc', 'objective': 'binary', 'scale_pos_weight': 4}
+2021-01-16 00:58:14,207 INFO    MainThread:9660 [wandb_run.py:_config_callback():608] config_cb None None {'learning_rate': 0.05, 'num_leaves': 30, 'n_estimators': 200, 'metric': 'auc', 'objective': 'binary', 'scale_pos_weight': 4}
+2021-01-16 00:58:22,271 INFO    MainThread:9660 [wandb_run.py:_config_callback():608] config_cb None None {'learning_rate': 0.05, 'num_leaves': 30, 'n_estimators': 200, 'metric': 'auc', 'objective': 'binary', 'scale_pos_weight': 4}
+2021-01-16 00:58:40,129 INFO    MainThread:9660 [wandb_init.py:_jupyter_setup():270] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f27f3f03510>
+2021-01-16 00:58:40,131 INFO    MainThread:9660 [wandb_setup.py:_flush():70] setting env: {}
+2021-01-16 00:58:40,133 INFO    MainThread:9660 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-01-16 00:58:40,133 INFO    MainThread:9660 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-01-16 00:58:40,134 INFO    MainThread:9660 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f28b101d050>
+2021-01-16 00:58:40,134 INFO    MainThread:9660 [wandb_init.py:_log_setup():318] Logging user logs to /home/jupyter/wids/wandb/run-20210116_005840-4j0edmrg/logs/debug.log
+2021-01-16 00:58:40,134 INFO    MainThread:9660 [wandb_init.py:_log_setup():319] Logging internal logs to /home/jupyter/wids/wandb/run-20210116_005840-4j0edmrg/logs/debug-internal.log
+2021-01-16 00:58:40,135 INFO    MainThread:9660 [wandb_run.py:finish():983] finishing run mariapaskevich/wids_2021/11p1bq56

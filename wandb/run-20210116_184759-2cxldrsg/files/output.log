@@ -1,0 +1,427 @@
+/opt/conda/lib/python3.7/site-packages/lightgbm/engine.py:151: UserWarning: Found `n_estimators` in params. Will use it instead of argument
+  warnings.warn("Found `{}` in params. Will use it instead of argument".format(alias))
+[LightGBM] [Info] Number of positive: 18173, number of negative: 65827
+[LightGBM] [Warning] Auto-choosing row-wise multi-threading, the overhead of testing was 0.038020 seconds.
+You can set `force_row_wise=true` to remove the overhead.
+And if memory is not enough, you can set `force_col_wise=true`.
+[LightGBM] [Info] Total Bins 25218
+[LightGBM] [Info] Number of data points in the train set: 84000, number of used features: 176
+/opt/conda/lib/python3.7/site-packages/lightgbm/basic.py:1286: UserWarning: Overriding the parameters from Reference Dataset.
+  warnings.warn('Overriding the parameters from Reference Dataset.')
+/opt/conda/lib/python3.7/site-packages/lightgbm/basic.py:1098: UserWarning: categorical_column in param dict is overridden.
+  warnings.warn('{} in param dict is overridden.'.format(cat_alias))
+[LightGBM] [Info] [binary:BoostFromScore]: pavg=0.216345 -> initscore=-1.287093
+[LightGBM] [Info] Start training from score -1.287093
+[1]	val's auc: 0.809932
+Training until validation scores don't improve for 10 rounds
+[2]	val's auc: 0.815161
+[3]	val's auc: 0.820339
+[4]	val's auc: 0.821786
+[5]	val's auc: 0.823949
+[6]	val's auc: 0.825622
+[7]	val's auc: 0.826637
+[8]	val's auc: 0.82764
+[9]	val's auc: 0.82824
+[10]	val's auc: 0.829291
+[11]	val's auc: 0.829956
+[12]	val's auc: 0.830795
+[13]	val's auc: 0.831469
+[14]	val's auc: 0.831858
+[15]	val's auc: 0.832297
+[16]	val's auc: 0.832733
+[17]	val's auc: 0.833619
+[18]	val's auc: 0.834136
+[19]	val's auc: 0.834648
+[20]	val's auc: 0.835367
+[21]	val's auc: 0.835728
+[22]	val's auc: 0.836186
+[23]	val's auc: 0.836748
+[24]	val's auc: 0.837433
+[25]	val's auc: 0.837971
+[26]	val's auc: 0.83842
+[27]	val's auc: 0.838843
+[28]	val's auc: 0.839328
+[29]	val's auc: 0.839757
+[30]	val's auc: 0.840101
+[31]	val's auc: 0.840408
+[32]	val's auc: 0.840814
+[33]	val's auc: 0.841285
+[34]	val's auc: 0.841638
+[35]	val's auc: 0.841906
+[36]	val's auc: 0.842283
+[37]	val's auc: 0.842613
+[38]	val's auc: 0.843028
+[39]	val's auc: 0.84337
+[40]	val's auc: 0.843699
+[41]	val's auc: 0.844109
+[42]	val's auc: 0.84437
+[43]	val's auc: 0.844667
+[44]	val's auc: 0.844886
+[45]	val's auc: 0.845297
+[46]	val's auc: 0.845801
+[47]	val's auc: 0.846071
+[48]	val's auc: 0.846261
+[49]	val's auc: 0.846595
+[50]	val's auc: 0.846963
+[51]	val's auc: 0.847161
+[52]	val's auc: 0.847519
+[53]	val's auc: 0.84782
+[54]	val's auc: 0.848062
+[55]	val's auc: 0.84851
+[56]	val's auc: 0.848757
+[57]	val's auc: 0.849073
+[58]	val's auc: 0.849397
+[59]	val's auc: 0.849725
+[60]	val's auc: 0.850089
+[61]	val's auc: 0.850216
+[62]	val's auc: 0.850556
+[63]	val's auc: 0.850761
+[64]	val's auc: 0.85105
+[65]	val's auc: 0.851198
+[66]	val's auc: 0.851781
+[67]	val's auc: 0.851854
+[68]	val's auc: 0.852138
+[69]	val's auc: 0.852723
+[70]	val's auc: 0.853018
+[71]	val's auc: 0.853233
+[72]	val's auc: 0.853531
+[73]	val's auc: 0.853759
+[74]	val's auc: 0.853933
+[75]	val's auc: 0.854013
+[76]	val's auc: 0.85451
+[77]	val's auc: 0.854664
+[78]	val's auc: 0.855072
+[79]	val's auc: 0.855255
+[80]	val's auc: 0.855344
+[81]	val's auc: 0.855451
+[82]	val's auc: 0.855587
+[83]	val's auc: 0.855913
+[84]	val's auc: 0.856005
+[85]	val's auc: 0.856311
+[86]	val's auc: 0.856472
+[87]	val's auc: 0.856585
+[88]	val's auc: 0.856717
+[89]	val's auc: 0.856902
+[90]	val's auc: 0.857015
+[91]	val's auc: 0.857281
+[92]	val's auc: 0.857473
+[93]	val's auc: 0.857574
+[94]	val's auc: 0.85786
+[95]	val's auc: 0.858057
+[96]	val's auc: 0.858211
+[97]	val's auc: 0.858273
+[98]	val's auc: 0.858383
+[99]	val's auc: 0.858543
+[100]	val's auc: 0.85867
+[101]	val's auc: 0.858764
+[102]	val's auc: 0.858875
+[103]	val's auc: 0.859296
+[104]	val's auc: 0.85938
+[105]	val's auc: 0.859674
+[106]	val's auc: 0.859751
+[107]	val's auc: 0.859872
+[108]	val's auc: 0.859996
+[109]	val's auc: 0.860082
+[110]	val's auc: 0.860219
+[111]	val's auc: 0.860385
+[112]	val's auc: 0.860538
+[113]	val's auc: 0.860586
+[114]	val's auc: 0.860746
+[115]	val's auc: 0.860876
+[116]	val's auc: 0.860952
+[117]	val's auc: 0.861059
+[118]	val's auc: 0.861224
+[119]	val's auc: 0.861358
+[120]	val's auc: 0.861446
+[121]	val's auc: 0.861543
+[122]	val's auc: 0.861664
+[123]	val's auc: 0.86184
+[124]	val's auc: 0.862055
+[125]	val's auc: 0.862124
+[126]	val's auc: 0.862185
+[127]	val's auc: 0.862417
+[128]	val's auc: 0.862539
+[129]	val's auc: 0.862614
+[130]	val's auc: 0.862708
+[131]	val's auc: 0.862764
+[132]	val's auc: 0.86282
+[133]	val's auc: 0.86287
+[134]	val's auc: 0.862929
+[135]	val's auc: 0.863064
+[136]	val's auc: 0.863243
+[137]	val's auc: 0.86329
+[138]	val's auc: 0.86338
+[139]	val's auc: 0.863465
+[140]	val's auc: 0.863545
+[141]	val's auc: 0.863702
+[142]	val's auc: 0.863784
+[143]	val's auc: 0.86392
+[144]	val's auc: 0.863981
+[145]	val's auc: 0.864029
+[146]	val's auc: 0.864083
+[147]	val's auc: 0.864138
+[148]	val's auc: 0.864192
+[149]	val's auc: 0.864225
+[150]	val's auc: 0.864295
+[151]	val's auc: 0.864546
+[152]	val's auc: 0.864589
+[153]	val's auc: 0.86463
+[154]	val's auc: 0.864682
+[155]	val's auc: 0.864694
+[156]	val's auc: 0.86477
+[157]	val's auc: 0.864824
+[158]	val's auc: 0.864896
+[159]	val's auc: 0.864958
+[160]	val's auc: 0.865005
+[161]	val's auc: 0.865023
+[162]	val's auc: 0.865075
+[163]	val's auc: 0.865177
+[164]	val's auc: 0.865212
+[165]	val's auc: 0.865352
+[166]	val's auc: 0.8654
+[167]	val's auc: 0.865435
+[168]	val's auc: 0.865439
+[169]	val's auc: 0.86547
+[170]	val's auc: 0.865522
+[171]	val's auc: 0.865541
+[172]	val's auc: 0.865578
+[173]	val's auc: 0.865565
+[174]	val's auc: 0.865552
+[175]	val's auc: 0.865602
+[176]	val's auc: 0.86564
+[177]	val's auc: 0.865718
+[178]	val's auc: 0.86587
+[179]	val's auc: 0.86588
+[180]	val's auc: 0.865895
+[181]	val's auc: 0.865929
+[182]	val's auc: 0.865927
+[183]	val's auc: 0.865985
+[184]	val's auc: 0.866012
+[185]	val's auc: 0.866022
+[186]	val's auc: 0.866055
+[187]	val's auc: 0.866136
+[188]	val's auc: 0.866174
+[189]	val's auc: 0.866187
+[190]	val's auc: 0.866191
+[191]	val's auc: 0.86621
+[192]	val's auc: 0.866226
+[193]	val's auc: 0.866253
+[194]	val's auc: 0.866292
+[195]	val's auc: 0.86631
+[196]	val's auc: 0.866316
+[197]	val's auc: 0.866421
+[198]	val's auc: 0.86644
+[199]	val's auc: 0.866463
+[200]	val's auc: 0.866493
+Did not meet early stopping. Best iteration is:
+[200]	val's auc: 0.866493
+/opt/conda/lib/python3.7/site-packages/lightgbm/basic.py:1286: UserWarning: Overriding the parameters from Reference Dataset.
+  warnings.warn('Overriding the parameters from Reference Dataset.')
+/opt/conda/lib/python3.7/site-packages/lightgbm/basic.py:1098: UserWarning: categorical_column in param dict is overridden.
+  warnings.warn('{} in param dict is overridden.'.format(cat_alias))
+[1]	valid_0's auc: 0.80915	valid_0's binary_logloss: 0.510941
+Training until validation scores don't improve for 5 rounds
+[2]	valid_0's auc: 0.813839	valid_0's binary_logloss: 0.500868
+[3]	valid_0's auc: 0.819955	valid_0's binary_logloss: 0.491936
+[4]	valid_0's auc: 0.820757	valid_0's binary_logloss: 0.484057
+[5]	valid_0's auc: 0.822995	valid_0's binary_logloss: 0.476783
+[6]	valid_0's auc: 0.824079	valid_0's binary_logloss: 0.470295
+[7]	valid_0's auc: 0.826227	valid_0's binary_logloss: 0.464243
+[8]	valid_0's auc: 0.827236	valid_0's binary_logloss: 0.458694
+[9]	valid_0's auc: 0.827876	valid_0's binary_logloss: 0.453624
+[10]	valid_0's auc: 0.828305	valid_0's binary_logloss: 0.449058
+[11]	valid_0's auc: 0.828735	valid_0's binary_logloss: 0.444839
+[12]	valid_0's auc: 0.829313	valid_0's binary_logloss: 0.440944
+[13]	valid_0's auc: 0.829825	valid_0's binary_logloss: 0.437388
+[14]	valid_0's auc: 0.830563	valid_0's binary_logloss: 0.434014
+[15]	valid_0's auc: 0.831776	valid_0's binary_logloss: 0.43066
+[16]	valid_0's auc: 0.832526	valid_0's binary_logloss: 0.427713
+[17]	valid_0's auc: 0.833195	valid_0's binary_logloss: 0.424988
+[18]	valid_0's auc: 0.833771	valid_0's binary_logloss: 0.422397
+[19]	valid_0's auc: 0.834167	valid_0's binary_logloss: 0.420037
+[20]	valid_0's auc: 0.834745	valid_0's binary_logloss: 0.417726
+[21]	valid_0's auc: 0.835465	valid_0's binary_logloss: 0.415456
+[22]	valid_0's auc: 0.836076	valid_0's binary_logloss: 0.413492
+[23]	valid_0's auc: 0.836303	valid_0's binary_logloss: 0.411696
+[24]	valid_0's auc: 0.836631	valid_0's binary_logloss: 0.409983
+[25]	valid_0's auc: 0.83707	valid_0's binary_logloss: 0.408307
+[26]	valid_0's auc: 0.837392	valid_0's binary_logloss: 0.4068
+[27]	valid_0's auc: 0.837777	valid_0's binary_logloss: 0.40532
+[28]	valid_0's auc: 0.83812	valid_0's binary_logloss: 0.403904
+[29]	valid_0's auc: 0.838454	valid_0's binary_logloss: 0.402658
+[30]	valid_0's auc: 0.83884	valid_0's binary_logloss: 0.401316
+[31]	valid_0's auc: 0.83925	valid_0's binary_logloss: 0.400129
+[32]	valid_0's auc: 0.839732	valid_0's binary_logloss: 0.398969
+[33]	valid_0's auc: 0.840084	valid_0's binary_logloss: 0.397886
+[34]	valid_0's auc: 0.8405	valid_0's binary_logloss: 0.396855
+[35]	valid_0's auc: 0.841001	valid_0's binary_logloss: 0.39581
+[36]	valid_0's auc: 0.841375	valid_0's binary_logloss: 0.394935
+[37]	valid_0's auc: 0.841907	valid_0's binary_logloss: 0.393857
+[38]	valid_0's auc: 0.842241	valid_0's binary_logloss: 0.393024
+[39]	valid_0's auc: 0.842679	valid_0's binary_logloss: 0.392133
+[40]	valid_0's auc: 0.843168	valid_0's binary_logloss: 0.391282
+[41]	valid_0's auc: 0.843583	valid_0's binary_logloss: 0.390503
+[42]	valid_0's auc: 0.844065	valid_0's binary_logloss: 0.389727
+[43]	valid_0's auc: 0.844519	valid_0's binary_logloss: 0.388877
+[44]	valid_0's auc: 0.844703	valid_0's binary_logloss: 0.388317
+[45]	valid_0's auc: 0.845171	valid_0's binary_logloss: 0.387561
+[46]	valid_0's auc: 0.845469	valid_0's binary_logloss: 0.386963
+[47]	valid_0's auc: 0.845811	valid_0's binary_logloss: 0.386318
+[48]	valid_0's auc: 0.846168	valid_0's binary_logloss: 0.385687
+[49]	valid_0's auc: 0.846368	valid_0's binary_logloss: 0.385194
+[50]	valid_0's auc: 0.846662	valid_0's binary_logloss: 0.384664
+[51]	valid_0's auc: 0.847065	valid_0's binary_logloss: 0.384056
+[52]	valid_0's auc: 0.847467	valid_0's binary_logloss: 0.383417
+[53]	valid_0's auc: 0.847872	valid_0's binary_logloss: 0.382821
+[54]	valid_0's auc: 0.84811	valid_0's binary_logloss: 0.382415
+[55]	valid_0's auc: 0.848563	valid_0's binary_logloss: 0.381806
+[56]	valid_0's auc: 0.848793	valid_0's binary_logloss: 0.381346
+[57]	valid_0's auc: 0.849012	valid_0's binary_logloss: 0.380914
+[58]	valid_0's auc: 0.849288	valid_0's binary_logloss: 0.380497
+[59]	valid_0's auc: 0.849587	valid_0's binary_logloss: 0.380079
+[60]	valid_0's auc: 0.849883	valid_0's binary_logloss: 0.3796
+[61]	valid_0's auc: 0.850121	valid_0's binary_logloss: 0.37918
+[62]	valid_0's auc: 0.850521	valid_0's binary_logloss: 0.37868
+[63]	valid_0's auc: 0.85079	valid_0's binary_logloss: 0.378309
+[64]	valid_0's auc: 0.851	valid_0's binary_logloss: 0.377989
+[65]	valid_0's auc: 0.851367	valid_0's binary_logloss: 0.377559
+[66]	valid_0's auc: 0.851822	valid_0's binary_logloss: 0.377047
+[67]	valid_0's auc: 0.851982	valid_0's binary_logloss: 0.37678
+[68]	valid_0's auc: 0.852304	valid_0's binary_logloss: 0.376341
+[69]	valid_0's auc: 0.852543	valid_0's binary_logloss: 0.375968
+[70]	valid_0's auc: 0.852787	valid_0's binary_logloss: 0.37565
+[71]	valid_0's auc: 0.853113	valid_0's binary_logloss: 0.375235
+[72]	valid_0's auc: 0.853283	valid_0's binary_logloss: 0.37497
+[73]	valid_0's auc: 0.853476	valid_0's binary_logloss: 0.374665
+[74]	valid_0's auc: 0.853738	valid_0's binary_logloss: 0.374354
+[75]	valid_0's auc: 0.854165	valid_0's binary_logloss: 0.373895
+[76]	valid_0's auc: 0.854351	valid_0's binary_logloss: 0.37364
+[77]	valid_0's auc: 0.854497	valid_0's binary_logloss: 0.373443
+[78]	valid_0's auc: 0.85467	valid_0's binary_logloss: 0.373178
+[79]	valid_0's auc: 0.855138	valid_0's binary_logloss: 0.372736
+[80]	valid_0's auc: 0.855386	valid_0's binary_logloss: 0.37241
+[81]	valid_0's auc: 0.855486	valid_0's binary_logloss: 0.372219
+[82]	valid_0's auc: 0.855918	valid_0's binary_logloss: 0.37178
+[83]	valid_0's auc: 0.856071	valid_0's binary_logloss: 0.371552
+[84]	valid_0's auc: 0.856218	valid_0's binary_logloss: 0.371324
+[85]	valid_0's auc: 0.856385	valid_0's binary_logloss: 0.371123
+[86]	valid_0's auc: 0.856598	valid_0's binary_logloss: 0.370883
+[87]	valid_0's auc: 0.856986	valid_0's binary_logloss: 0.370486
+[88]	valid_0's auc: 0.857155	valid_0's binary_logloss: 0.370231
+[89]	valid_0's auc: 0.857292	valid_0's binary_logloss: 0.370044
+[90]	valid_0's auc: 0.857406	valid_0's binary_logloss: 0.369861
+[91]	valid_0's auc: 0.857518	valid_0's binary_logloss: 0.369715
+[92]	valid_0's auc: 0.857882	valid_0's binary_logloss: 0.369361
+[93]	valid_0's auc: 0.858054	valid_0's binary_logloss: 0.369133
+[94]	valid_0's auc: 0.858255	valid_0's binary_logloss: 0.368863
+[95]	valid_0's auc: 0.858387	valid_0's binary_logloss: 0.368707
+[96]	valid_0's auc: 0.858541	valid_0's binary_logloss: 0.368481
+[97]	valid_0's auc: 0.858778	valid_0's binary_logloss: 0.368212
+[98]	valid_0's auc: 0.858898	valid_0's binary_logloss: 0.368024
+[99]	valid_0's auc: 0.858987	valid_0's binary_logloss: 0.367873
+[100]	valid_0's auc: 0.859252	valid_0's binary_logloss: 0.367583
+[101]	valid_0's auc: 0.859411	valid_0's binary_logloss: 0.36738
+[102]	valid_0's auc: 0.859577	valid_0's binary_logloss: 0.367168
+[103]	valid_0's auc: 0.859665	valid_0's binary_logloss: 0.367003
+[104]	valid_0's auc: 0.859943	valid_0's binary_logloss: 0.366706
+[105]	valid_0's auc: 0.860049	valid_0's binary_logloss: 0.366566
+[106]	valid_0's auc: 0.860137	valid_0's binary_logloss: 0.366446
+[107]	valid_0's auc: 0.860448	valid_0's binary_logloss: 0.366113
+[108]	valid_0's auc: 0.86053	valid_0's binary_logloss: 0.36596
+[109]	valid_0's auc: 0.860647	valid_0's binary_logloss: 0.365802
+[110]	valid_0's auc: 0.860758	valid_0's binary_logloss: 0.365683
+[111]	valid_0's auc: 0.860778	valid_0's binary_logloss: 0.365636
+[112]	valid_0's auc: 0.861151	valid_0's binary_logloss: 0.365231
+[113]	valid_0's auc: 0.861396	valid_0's binary_logloss: 0.364957
+[114]	valid_0's auc: 0.861431	valid_0's binary_logloss: 0.364873
+[115]	valid_0's auc: 0.861564	valid_0's binary_logloss: 0.364705
+[116]	valid_0's auc: 0.861623	valid_0's binary_logloss: 0.364595
+[117]	valid_0's auc: 0.861673	valid_0's binary_logloss: 0.364513
+[118]	valid_0's auc: 0.861799	valid_0's binary_logloss: 0.364377
+[119]	valid_0's auc: 0.861865	valid_0's binary_logloss: 0.364264
+[120]	valid_0's auc: 0.862023	valid_0's binary_logloss: 0.364085
+[121]	valid_0's auc: 0.862077	valid_0's binary_logloss: 0.363995
+[122]	valid_0's auc: 0.862212	valid_0's binary_logloss: 0.363846
+[123]	valid_0's auc: 0.862288	valid_0's binary_logloss: 0.36376
+[124]	valid_0's auc: 0.862453	valid_0's binary_logloss: 0.363555
+[125]	valid_0's auc: 0.862501	valid_0's binary_logloss: 0.363487
+[126]	valid_0's auc: 0.862692	valid_0's binary_logloss: 0.36326
+[127]	valid_0's auc: 0.8628	valid_0's binary_logloss: 0.363124
+[128]	valid_0's auc: 0.862964	valid_0's binary_logloss: 0.362929
+[129]	valid_0's auc: 0.863043	valid_0's binary_logloss: 0.362835
+[130]	valid_0's auc: 0.863128	valid_0's binary_logloss: 0.362722
+[131]	valid_0's auc: 0.863204	valid_0's binary_logloss: 0.362609
+[132]	valid_0's auc: 0.863261	valid_0's binary_logloss: 0.362519
+[133]	valid_0's auc: 0.863469	valid_0's binary_logloss: 0.362271
+[134]	valid_0's auc: 0.863522	valid_0's binary_logloss: 0.362191
+[135]	valid_0's auc: 0.863585	valid_0's binary_logloss: 0.362081
+[136]	valid_0's auc: 0.863668	valid_0's binary_logloss: 0.361999
+[137]	valid_0's auc: 0.863739	valid_0's binary_logloss: 0.36189
+[138]	valid_0's auc: 0.863832	valid_0's binary_logloss: 0.361766
+[139]	valid_0's auc: 0.863875	valid_0's binary_logloss: 0.361706
+[140]	valid_0's auc: 0.863928	valid_0's binary_logloss: 0.361628
+[141]	valid_0's auc: 0.863979	valid_0's binary_logloss: 0.361571
+[142]	valid_0's auc: 0.86402	valid_0's binary_logloss: 0.361505
+[143]	valid_0's auc: 0.864076	valid_0's binary_logloss: 0.361435
+[144]	valid_0's auc: 0.864152	valid_0's binary_logloss: 0.361325
+[145]	valid_0's auc: 0.864247	valid_0's binary_logloss: 0.361195
+[146]	valid_0's auc: 0.864274	valid_0's binary_logloss: 0.36115
+[147]	valid_0's auc: 0.864338	valid_0's binary_logloss: 0.361081
+[148]	valid_0's auc: 0.864386	valid_0's binary_logloss: 0.361022
+[149]	valid_0's auc: 0.864492	valid_0's binary_logloss: 0.360919
+[150]	valid_0's auc: 0.864557	valid_0's binary_logloss: 0.360832
+[151]	valid_0's auc: 0.864617	valid_0's binary_logloss: 0.36074
+[152]	valid_0's auc: 0.864819	valid_0's binary_logloss: 0.360536
+[153]	valid_0's auc: 0.864948	valid_0's binary_logloss: 0.360376
+[154]	valid_0's auc: 0.864993	valid_0's binary_logloss: 0.360307
+[155]	valid_0's auc: 0.865031	valid_0's binary_logloss: 0.360263
+[156]	valid_0's auc: 0.865067	valid_0's binary_logloss: 0.360187
+[157]	valid_0's auc: 0.865147	valid_0's binary_logloss: 0.360098
+[158]	valid_0's auc: 0.865189	valid_0's binary_logloss: 0.360046
+[159]	valid_0's auc: 0.865194	valid_0's binary_logloss: 0.360019
+[160]	valid_0's auc: 0.865237	valid_0's binary_logloss: 0.359948
+[161]	valid_0's auc: 0.865305	valid_0's binary_logloss: 0.359863
+[162]	valid_0's auc: 0.865342	valid_0's binary_logloss: 0.35982
+[163]	valid_0's auc: 0.865378	valid_0's binary_logloss: 0.359775
+[164]	valid_0's auc: 0.865434	valid_0's binary_logloss: 0.359702
+[165]	valid_0's auc: 0.86548	valid_0's binary_logloss: 0.35965
+[166]	valid_0's auc: 0.865571	valid_0's binary_logloss: 0.359558
+[167]	valid_0's auc: 0.865613	valid_0's binary_logloss: 0.359489
+[168]	valid_0's auc: 0.865601	valid_0's binary_logloss: 0.359487
+[169]	valid_0's auc: 0.865833	valid_0's binary_logloss: 0.359248
+[170]	valid_0's auc: 0.865876	valid_0's binary_logloss: 0.359189
+[171]	valid_0's auc: 0.865934	valid_0's binary_logloss: 0.359131
+[172]	valid_0's auc: 0.865947	valid_0's binary_logloss: 0.359093
+[173]	valid_0's auc: 0.865978	valid_0's binary_logloss: 0.359049
+[174]	valid_0's auc: 0.865982	valid_0's binary_logloss: 0.359025
+[175]	valid_0's auc: 0.865989	valid_0's binary_logloss: 0.358996
+[176]	valid_0's auc: 0.86603	valid_0's binary_logloss: 0.358933
+[177]	valid_0's auc: 0.86607	valid_0's binary_logloss: 0.358871
+[178]	valid_0's auc: 0.866085	valid_0's binary_logloss: 0.358846
+[179]	valid_0's auc: 0.86628	valid_0's binary_logloss: 0.358645
+[180]	valid_0's auc: 0.866307	valid_0's binary_logloss: 0.358601
+[181]	valid_0's auc: 0.866444	valid_0's binary_logloss: 0.358447
+[182]	valid_0's auc: 0.866466	valid_0's binary_logloss: 0.358406
+[183]	valid_0's auc: 0.866503	valid_0's binary_logloss: 0.358365
+[184]	valid_0's auc: 0.866559	valid_0's binary_logloss: 0.358299
+[185]	valid_0's auc: 0.86661	valid_0's binary_logloss: 0.358234
+[186]	valid_0's auc: 0.866732	valid_0's binary_logloss: 0.358093
+[187]	valid_0's auc: 0.866749	valid_0's binary_logloss: 0.358075
+[188]	valid_0's auc: 0.866755	valid_0's binary_logloss: 0.358064
+[189]	valid_0's auc: 0.866764	valid_0's binary_logloss: 0.358048
+[190]	valid_0's auc: 0.866797	valid_0's binary_logloss: 0.357996
+[191]	valid_0's auc: 0.866772	valid_0's binary_logloss: 0.357996
+[192]	valid_0's auc: 0.866774	valid_0's binary_logloss: 0.357975
+[193]	valid_0's auc: 0.866817	valid_0's binary_logloss: 0.357923
+[194]	valid_0's auc: 0.866829	valid_0's binary_logloss: 0.35791
+[195]	valid_0's auc: 0.86684	valid_0's binary_logloss: 0.357872
+[196]	valid_0's auc: 0.866853	valid_0's binary_logloss: 0.357846
+[197]	valid_0's auc: 0.866879	valid_0's binary_logloss: 0.357811
+[198]	valid_0's auc: 0.866912	valid_0's binary_logloss: 0.357767
+[199]	valid_0's auc: 0.866975	valid_0's binary_logloss: 0.357673
+[200]	valid_0's auc: 0.866994	valid_0's binary_logloss: 0.357638
+Did not meet early stopping. Best iteration is:
+[200]	valid_0's auc: 0.866994	valid_0's binary_logloss: 0.357638
+Starting predicting...
+0.8669940597075814
+0.8620708851853278
