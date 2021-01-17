@@ -1378,3 +1378,75 @@
 2021-01-17 00:55:17,641 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
 2021-01-17 00:55:17,724 DEBUG   Thread-5  :9176 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/mariapaskevich/wids_2021/3hpvhupn/file_stream HTTP/1.1" 200 None
 2021-01-17 00:55:22,086 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:55:26,531 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:55:30,581 DEBUG   HandlerThread:9176 [handler.py:handle_request():55] handle_request: status
+2021-01-17 00:55:30,581 DEBUG   SenderThread:9176 [sender.py:send():117] send: request
+2021-01-17 00:55:30,582 DEBUG   SenderThread:9176 [sender.py:send_request():126] send_request: status
+2021-01-17 00:55:30,583 DEBUG   SenderThread:9176 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-17 00:55:30,683 DEBUG   SenderThread:9176 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-01-17 00:55:30,975 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:55:35,420 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:55:39,865 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:55:44,311 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:55:45,686 DEBUG   HandlerThread:9176 [handler.py:handle_request():55] handle_request: status
+2021-01-17 00:55:45,686 DEBUG   SenderThread:9176 [sender.py:send():117] send: request
+2021-01-17 00:55:45,686 DEBUG   SenderThread:9176 [sender.py:send_request():126] send_request: status
+2021-01-17 00:55:45,688 DEBUG   SenderThread:9176 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-17 00:55:45,803 DEBUG   SenderThread:9176 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-01-17 00:55:48,756 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:55:48,828 DEBUG   Thread-5  :9176 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/mariapaskevich/wids_2021/3hpvhupn/file_stream HTTP/1.1" 200 None
+2021-01-17 00:55:53,201 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:55:57,647 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:56:00,806 DEBUG   HandlerThread:9176 [handler.py:handle_request():55] handle_request: status
+2021-01-17 00:56:00,806 DEBUG   SenderThread:9176 [sender.py:send():117] send: request
+2021-01-17 00:56:00,806 DEBUG   SenderThread:9176 [sender.py:send_request():126] send_request: status
+2021-01-17 00:56:00,808 DEBUG   SenderThread:9176 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-17 00:56:00,980 DEBUG   SenderThread:9176 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-01-17 00:56:02,092 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:56:06,539 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:56:10,984 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:56:15,428 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:56:15,982 DEBUG   HandlerThread:9176 [handler.py:handle_request():55] handle_request: status
+2021-01-17 00:56:15,983 DEBUG   SenderThread:9176 [sender.py:send():117] send: request
+2021-01-17 00:56:15,983 DEBUG   SenderThread:9176 [sender.py:send_request():126] send_request: status
+2021-01-17 00:56:15,985 DEBUG   SenderThread:9176 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-17 00:56:16,092 DEBUG   SenderThread:9176 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-01-17 00:56:19,872 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:56:19,956 DEBUG   Thread-5  :9176 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/mariapaskevich/wids_2021/3hpvhupn/file_stream HTTP/1.1" 200 None
+2021-01-17 00:56:24,317 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:56:28,762 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:56:31,095 DEBUG   HandlerThread:9176 [handler.py:handle_request():55] handle_request: status
+2021-01-17 00:56:31,095 DEBUG   SenderThread:9176 [sender.py:send():117] send: request
+2021-01-17 00:56:31,095 DEBUG   SenderThread:9176 [sender.py:send_request():126] send_request: status
+2021-01-17 00:56:31,097 DEBUG   SenderThread:9176 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-17 00:56:31,313 DEBUG   SenderThread:9176 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-01-17 00:56:33,207 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:56:37,654 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:56:42,101 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:56:46,316 DEBUG   HandlerThread:9176 [handler.py:handle_request():55] handle_request: status
+2021-01-17 00:56:46,317 DEBUG   SenderThread:9176 [sender.py:send():117] send: request
+2021-01-17 00:56:46,317 DEBUG   SenderThread:9176 [sender.py:send_request():126] send_request: status
+2021-01-17 00:56:46,319 DEBUG   SenderThread:9176 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-17 00:56:46,736 DEBUG   SenderThread:9176 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-01-17 00:56:46,738 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:56:50,991 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:56:51,075 DEBUG   Thread-5  :9176 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/mariapaskevich/wids_2021/3hpvhupn/file_stream HTTP/1.1" 200 None
+2021-01-17 00:56:55,436 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:56:59,880 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:57:01,740 DEBUG   HandlerThread:9176 [handler.py:handle_request():55] handle_request: status
+2021-01-17 00:57:01,740 DEBUG   SenderThread:9176 [sender.py:send():117] send: request
+2021-01-17 00:57:01,740 DEBUG   SenderThread:9176 [sender.py:send_request():126] send_request: status
+2021-01-17 00:57:01,742 DEBUG   SenderThread:9176 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-17 00:57:01,871 DEBUG   SenderThread:9176 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-01-17 00:57:04,324 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:57:08,769 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:57:13,215 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:57:16,873 DEBUG   HandlerThread:9176 [handler.py:handle_request():55] handle_request: status
+2021-01-17 00:57:16,874 DEBUG   SenderThread:9176 [sender.py:send():117] send: request
+2021-01-17 00:57:16,874 DEBUG   SenderThread:9176 [sender.py:send_request():126] send_request: status
+2021-01-17 00:57:16,876 DEBUG   SenderThread:9176 [connectionpool.py:_new_conn():975] Starting new HTTPS connection (1): api.wandb.ai:443
+2021-01-17 00:57:16,974 DEBUG   SenderThread:9176 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /graphql HTTP/1.1" 200 None
+2021-01-17 00:57:17,659 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:57:22,103 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
+2021-01-17 00:57:22,187 DEBUG   Thread-5  :9176 [connectionpool.py:_make_request():461] https://api.wandb.ai:443 "POST /files/mariapaskevich/wids_2021/3hpvhupn/file_stream HTTP/1.1" 200 None
+2021-01-17 00:57:26,548 DEBUG   SenderThread:9176 [sender.py:send():117] send: stats
