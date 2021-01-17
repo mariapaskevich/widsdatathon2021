@@ -1,0 +1,13 @@
+[00:22:52] WARNING: ../src/learner.cc:541: 
+Parameters: { n_estimators, num_leaves } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[0]	train-rmse:0.48797	test-rmse:0.48814
+[1]	train-rmse:0.47692	test-rmse:0.47723
+[2]	train-rmse:0.46669	test-rmse:0.46715
+[3]	train-rmse:0.45720	test-rmse:0.45784
+[4]	train-rmse:0.44844	test-rmse:0.44925
