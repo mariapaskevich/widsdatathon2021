@@ -1,0 +1,337 @@
+/opt/conda/lib/python3.7/site-packages/xgboost/training.py:19: UserWarning: Old style callback is deprecated.  See: https://xgboost.readthedocs.io/en/latest/python/callbacks.html
+  warnings.warn(f'Old style callback is deprecated.  See: {link}', UserWarning)
+[21:15:06] WARNING: ../src/learner.cc:541: 
+Parameters: { n_estimators, num_leaves } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[0]	train-auc:0.79792	test-auc:0.78400
+[1]	train-auc:0.80669	test-auc:0.79364
+[2]	train-auc:0.82224	test-auc:0.80797
+[3]	train-auc:0.82940	test-auc:0.81522
+[4]	train-auc:0.83125	test-auc:0.81746
+[5]	train-auc:0.83300	test-auc:0.81890
+[6]	train-auc:0.83502	test-auc:0.82052
+[7]	train-auc:0.83687	test-auc:0.82261
+[8]	train-auc:0.83783	test-auc:0.82381
+[9]	train-auc:0.83964	test-auc:0.82568
+[10]	train-auc:0.84066	test-auc:0.82618
+[11]	train-auc:0.84131	test-auc:0.82663
+[12]	train-auc:0.84230	test-auc:0.82741
+[13]	train-auc:0.84464	test-auc:0.82941
+[14]	train-auc:0.84615	test-auc:0.83066
+[15]	train-auc:0.84666	test-auc:0.83088
+[16]	train-auc:0.84743	test-auc:0.83125
+[17]	train-auc:0.84831	test-auc:0.83225
+[18]	train-auc:0.84963	test-auc:0.83307
+[19]	train-auc:0.85017	test-auc:0.83368
+[20]	train-auc:0.85094	test-auc:0.83400
+[21]	train-auc:0.85214	test-auc:0.83512
+[22]	train-auc:0.85331	test-auc:0.83574
+[23]	train-auc:0.85437	test-auc:0.83638
+[24]	train-auc:0.85533	test-auc:0.83710
+[25]	train-auc:0.85603	test-auc:0.83739
+[26]	train-auc:0.85780	test-auc:0.83914
+[27]	train-auc:0.85859	test-auc:0.83951
+[28]	train-auc:0.85945	test-auc:0.84026
+[29]	train-auc:0.86037	test-auc:0.84086
+[30]	train-auc:0.86120	test-auc:0.84127
+[31]	train-auc:0.86230	test-auc:0.84203
+[32]	train-auc:0.86284	test-auc:0.84228
+[33]	train-auc:0.86372	test-auc:0.84269
+[34]	train-auc:0.86449	test-auc:0.84313
+[35]	train-auc:0.86522	test-auc:0.84355
+[36]	train-auc:0.86604	test-auc:0.84403
+[37]	train-auc:0.86699	test-auc:0.84483
+[38]	train-auc:0.86754	test-auc:0.84503
+[39]	train-auc:0.86918	test-auc:0.84648
+[40]	train-auc:0.86990	test-auc:0.84688
+[41]	train-auc:0.87091	test-auc:0.84753
+[42]	train-auc:0.87180	test-auc:0.84798
+[43]	train-auc:0.87247	test-auc:0.84828
+[44]	train-auc:0.87333	test-auc:0.84875
+[45]	train-auc:0.87401	test-auc:0.84920
+[46]	train-auc:0.87466	test-auc:0.84957
+[47]	train-auc:0.87524	test-auc:0.84995
+[48]	train-auc:0.87579	test-auc:0.85017
+[49]	train-auc:0.87651	test-auc:0.85061
+[50]	train-auc:0.87712	test-auc:0.85079
+[51]	train-auc:0.87791	test-auc:0.85134
+[52]	train-auc:0.87860	test-auc:0.85185
+[53]	train-auc:0.87924	test-auc:0.85204
+[54]	train-auc:0.87979	test-auc:0.85230
+[55]	train-auc:0.88034	test-auc:0.85248
+[56]	train-auc:0.88093	test-auc:0.85298
+[57]	train-auc:0.88156	test-auc:0.85327
+[58]	train-auc:0.88247	test-auc:0.85384
+[59]	train-auc:0.88296	test-auc:0.85403
+[60]	train-auc:0.88345	test-auc:0.85429
+[61]	train-auc:0.88387	test-auc:0.85449
+[62]	train-auc:0.88452	test-auc:0.85476
+[63]	train-auc:0.88518	test-auc:0.85513
+[64]	train-auc:0.88561	test-auc:0.85536
+[65]	train-auc:0.88616	test-auc:0.85548
+[66]	train-auc:0.88672	test-auc:0.85578
+[67]	train-auc:0.88742	test-auc:0.85615
+[68]	train-auc:0.88785	test-auc:0.85621
+[69]	train-auc:0.88835	test-auc:0.85633
+[70]	train-auc:0.88871	test-auc:0.85643
+[71]	train-auc:0.88927	test-auc:0.85671
+[72]	train-auc:0.88962	test-auc:0.85699
+[73]	train-auc:0.88998	test-auc:0.85718
+[74]	train-auc:0.89054	test-auc:0.85732
+[75]	train-auc:0.89095	test-auc:0.85743
+[76]	train-auc:0.89151	test-auc:0.85762
+[77]	train-auc:0.89221	test-auc:0.85799
+[78]	train-auc:0.89281	test-auc:0.85821
+[79]	train-auc:0.89321	test-auc:0.85837
+[80]	train-auc:0.89365	test-auc:0.85845
+[81]	train-auc:0.89395	test-auc:0.85855
+[82]	train-auc:0.89426	test-auc:0.85875
+[83]	train-auc:0.89473	test-auc:0.85899
+[84]	train-auc:0.89510	test-auc:0.85901
+[85]	train-auc:0.89547	test-auc:0.85904
+[86]	train-auc:0.89593	test-auc:0.85912
+[87]	train-auc:0.89623	test-auc:0.85922
+[88]	train-auc:0.89668	test-auc:0.85951
+[89]	train-auc:0.89720	test-auc:0.85962
+[90]	train-auc:0.89754	test-auc:0.85968
+[91]	train-auc:0.89795	test-auc:0.85999
+[92]	train-auc:0.89825	test-auc:0.86004
+[93]	train-auc:0.89867	test-auc:0.86010
+[94]	train-auc:0.89898	test-auc:0.86016
+[95]	train-auc:0.89952	test-auc:0.86054
+[96]	train-auc:0.89997	test-auc:0.86079
+[97]	train-auc:0.90035	test-auc:0.86101
+[98]	train-auc:0.90067	test-auc:0.86101
+[99]	train-auc:0.90094	test-auc:0.86104
+[100]	train-auc:0.90110	test-auc:0.86112
+[101]	train-auc:0.90153	test-auc:0.86128
+[102]	train-auc:0.90186	test-auc:0.86152
+[103]	train-auc:0.90214	test-auc:0.86158
+[104]	train-auc:0.90237	test-auc:0.86167
+[105]	train-auc:0.90267	test-auc:0.86170
+[106]	train-auc:0.90289	test-auc:0.86176
+[107]	train-auc:0.90319	test-auc:0.86180
+[108]	train-auc:0.90352	test-auc:0.86186
+[109]	train-auc:0.90380	test-auc:0.86188
+[110]	train-auc:0.90419	test-auc:0.86194
+[111]	train-auc:0.90444	test-auc:0.86191
+[112]	train-auc:0.90471	test-auc:0.86198
+[113]	train-auc:0.90503	test-auc:0.86215
+[114]	train-auc:0.90521	test-auc:0.86219
+[115]	train-auc:0.90558	test-auc:0.86231
+[116]	train-auc:0.90589	test-auc:0.86248
+[117]	train-auc:0.90616	test-auc:0.86259
+[118]	train-auc:0.90641	test-auc:0.86266
+[119]	train-auc:0.90671	test-auc:0.86274
+[120]	train-auc:0.90706	test-auc:0.86277
+[121]	train-auc:0.90734	test-auc:0.86281
+[122]	train-auc:0.90760	test-auc:0.86290
+[123]	train-auc:0.90784	test-auc:0.86287
+[124]	train-auc:0.90813	test-auc:0.86295
+[125]	train-auc:0.90831	test-auc:0.86303
+[126]	train-auc:0.90864	test-auc:0.86311
+[127]	train-auc:0.90887	test-auc:0.86312
+[128]	train-auc:0.90920	test-auc:0.86324
+[129]	train-auc:0.90948	test-auc:0.86329
+[130]	train-auc:0.90965	test-auc:0.86328
+[131]	train-auc:0.90993	test-auc:0.86332
+[132]	train-auc:0.91015	test-auc:0.86343
+[133]	train-auc:0.91043	test-auc:0.86343
+[134]	train-auc:0.91074	test-auc:0.86347
+[135]	train-auc:0.91108	test-auc:0.86352
+[136]	train-auc:0.91134	test-auc:0.86352
+[137]	train-auc:0.91158	test-auc:0.86355
+[138]	train-auc:0.91188	test-auc:0.86352
+[139]	train-auc:0.91222	test-auc:0.86372
+[140]	train-auc:0.91250	test-auc:0.86392
+[141]	train-auc:0.91268	test-auc:0.86399
+[142]	train-auc:0.91292	test-auc:0.86400
+[143]	train-auc:0.91307	test-auc:0.86405
+[144]	train-auc:0.91338	test-auc:0.86406
+[145]	train-auc:0.91362	test-auc:0.86406
+[146]	train-auc:0.91374	test-auc:0.86403
+[147]	train-auc:0.91402	test-auc:0.86404
+[148]	train-auc:0.91427	test-auc:0.86411
+[149]	train-auc:0.91458	test-auc:0.86430
+[150]	train-auc:0.91487	test-auc:0.86433
+[151]	train-auc:0.91514	test-auc:0.86444
+[152]	train-auc:0.91546	test-auc:0.86442
+[153]	train-auc:0.91568	test-auc:0.86444
+[154]	train-auc:0.91595	test-auc:0.86444
+[155]	train-auc:0.91605	test-auc:0.86443
+[156]	train-auc:0.91630	test-auc:0.86453
+[157]	train-auc:0.91667	test-auc:0.86450
+[158]	train-auc:0.91689	test-auc:0.86450
+[159]	train-auc:0.91708	test-auc:0.86452
+[160]	train-auc:0.91729	test-auc:0.86452
+[161]	train-auc:0.91755	test-auc:0.86454
+[162]	train-auc:0.91778	test-auc:0.86457
+[163]	train-auc:0.91790	test-auc:0.86455
+[164]	train-auc:0.91809	test-auc:0.86453
+[165]	train-auc:0.91829	test-auc:0.86451
+[166]	train-auc:0.91842	test-auc:0.86450
+[167]	train-auc:0.91856	test-auc:0.86453
+[168]	train-auc:0.91873	test-auc:0.86453
+[169]	train-auc:0.91897	test-auc:0.86459
+[170]	train-auc:0.91923	test-auc:0.86467
+[171]	train-auc:0.91934	test-auc:0.86465
+[172]	train-auc:0.91963	test-auc:0.86469
+[173]	train-auc:0.91984	test-auc:0.86464
+[174]	train-auc:0.91997	test-auc:0.86465
+[175]	train-auc:0.92013	test-auc:0.86462
+[176]	train-auc:0.92027	test-auc:0.86465
+[177]	train-auc:0.92049	test-auc:0.86471
+[178]	train-auc:0.92066	test-auc:0.86474
+[179]	train-auc:0.92087	test-auc:0.86481
+[180]	train-auc:0.92113	test-auc:0.86486
+[181]	train-auc:0.92133	test-auc:0.86490
+[182]	train-auc:0.92154	test-auc:0.86491
+[183]	train-auc:0.92175	test-auc:0.86489
+[184]	train-auc:0.92204	test-auc:0.86500
+[185]	train-auc:0.92218	test-auc:0.86503
+[186]	train-auc:0.92227	test-auc:0.86497
+[187]	train-auc:0.92239	test-auc:0.86498
+[188]	train-auc:0.92264	test-auc:0.86498
+[189]	train-auc:0.92281	test-auc:0.86502
+[190]	train-auc:0.92307	test-auc:0.86504
+[191]	train-auc:0.92335	test-auc:0.86507
+[192]	train-auc:0.92346	test-auc:0.86504
+[193]	train-auc:0.92370	test-auc:0.86505
+[194]	train-auc:0.92394	test-auc:0.86507
+[195]	train-auc:0.92416	test-auc:0.86513
+[196]	train-auc:0.92439	test-auc:0.86526
+[197]	train-auc:0.92450	test-auc:0.86524
+[198]	train-auc:0.92464	test-auc:0.86523
+[199]	train-auc:0.92486	test-auc:0.86527
+[200]	train-auc:0.92493	test-auc:0.86529
+[201]	train-auc:0.92512	test-auc:0.86530
+[202]	train-auc:0.92532	test-auc:0.86530
+[203]	train-auc:0.92541	test-auc:0.86530
+[204]	train-auc:0.92563	test-auc:0.86530
+[205]	train-auc:0.92579	test-auc:0.86530
+[206]	train-auc:0.92586	test-auc:0.86531
+[207]	train-auc:0.92602	test-auc:0.86530
+[208]	train-auc:0.92629	test-auc:0.86533
+[209]	train-auc:0.92654	test-auc:0.86541
+[210]	train-auc:0.92668	test-auc:0.86542
+[211]	train-auc:0.92694	test-auc:0.86545
+[212]	train-auc:0.92707	test-auc:0.86542
+[213]	train-auc:0.92722	test-auc:0.86543
+[214]	train-auc:0.92738	test-auc:0.86543
+[215]	train-auc:0.92761	test-auc:0.86544
+[216]	train-auc:0.92774	test-auc:0.86543
+[217]	train-auc:0.92792	test-auc:0.86552
+[218]	train-auc:0.92809	test-auc:0.86557
+[219]	train-auc:0.92835	test-auc:0.86557
+[220]	train-auc:0.92844	test-auc:0.86560
+[221]	train-auc:0.92858	test-auc:0.86562
+[222]	train-auc:0.92881	test-auc:0.86565
+[223]	train-auc:0.92895	test-auc:0.86567
+[224]	train-auc:0.92915	test-auc:0.86579
+[225]	train-auc:0.92942	test-auc:0.86583
+[226]	train-auc:0.92966	test-auc:0.86578
+[227]	train-auc:0.92980	test-auc:0.86577
+[228]	train-auc:0.92990	test-auc:0.86576
+[229]	train-auc:0.93002	test-auc:0.86574
+[230]	train-auc:0.93017	test-auc:0.86576
+[231]	train-auc:0.93031	test-auc:0.86576
+[232]	train-auc:0.93045	test-auc:0.86577
+[233]	train-auc:0.93069	test-auc:0.86579
+[234]	train-auc:0.93090	test-auc:0.86588
+[235]	train-auc:0.93108	test-auc:0.86587
+[236]	train-auc:0.93123	test-auc:0.86585
+[237]	train-auc:0.93133	test-auc:0.86584
+[238]	train-auc:0.93149	test-auc:0.86587
+[239]	train-auc:0.93178	test-auc:0.86597
+[240]	train-auc:0.93198	test-auc:0.86598
+[241]	train-auc:0.93208	test-auc:0.86598
+[242]	train-auc:0.93222	test-auc:0.86602
+[243]	train-auc:0.93241	test-auc:0.86605
+[244]	train-auc:0.93256	test-auc:0.86607
+[245]	train-auc:0.93273	test-auc:0.86616
+[246]	train-auc:0.93293	test-auc:0.86618
+[247]	train-auc:0.93314	test-auc:0.86619
+[248]	train-auc:0.93341	test-auc:0.86625
+[249]	train-auc:0.93365	test-auc:0.86626
+[250]	train-auc:0.93370	test-auc:0.86625
+[251]	train-auc:0.93383	test-auc:0.86629
+[252]	train-auc:0.93394	test-auc:0.86633
+[253]	train-auc:0.93416	test-auc:0.86632
+[254]	train-auc:0.93436	test-auc:0.86631
+[255]	train-auc:0.93456	test-auc:0.86638
+[256]	train-auc:0.93475	test-auc:0.86637
+[257]	train-auc:0.93493	test-auc:0.86642
+[258]	train-auc:0.93504	test-auc:0.86643
+[259]	train-auc:0.93523	test-auc:0.86643
+[260]	train-auc:0.93538	test-auc:0.86643
+[261]	train-auc:0.93563	test-auc:0.86646
+[262]	train-auc:0.93568	test-auc:0.86646
+[263]	train-auc:0.93578	test-auc:0.86641
+[264]	train-auc:0.93592	test-auc:0.86639
+[265]	train-auc:0.93601	test-auc:0.86638
+[266]	train-auc:0.93622	test-auc:0.86641
+[267]	train-auc:0.93633	test-auc:0.86640
+[268]	train-auc:0.93650	test-auc:0.86641
+[269]	train-auc:0.93677	test-auc:0.86643
+[270]	train-auc:0.93700	test-auc:0.86645
+[271]	train-auc:0.93717	test-auc:0.86649
+[272]	train-auc:0.93723	test-auc:0.86650
+[273]	train-auc:0.93734	test-auc:0.86651
+[274]	train-auc:0.93751	test-auc:0.86652
+[275]	train-auc:0.93761	test-auc:0.86650
+[276]	train-auc:0.93773	test-auc:0.86651
+[277]	train-auc:0.93792	test-auc:0.86650
+[278]	train-auc:0.93814	test-auc:0.86648
+[279]	train-auc:0.93833	test-auc:0.86645
+[280]	train-auc:0.93846	test-auc:0.86647
+[281]	train-auc:0.93866	test-auc:0.86648
+[282]	train-auc:0.93878	test-auc:0.86648
+[283]	train-auc:0.93898	test-auc:0.86650
+[284]	train-auc:0.93914	test-auc:0.86648
+[285]	train-auc:0.93926	test-auc:0.86658
+[286]	train-auc:0.93940	test-auc:0.86656
+[287]	train-auc:0.93948	test-auc:0.86659
+[288]	train-auc:0.93973	test-auc:0.86661
+[289]	train-auc:0.93985	test-auc:0.86665
+[290]	train-auc:0.93996	test-auc:0.86667
+[291]	train-auc:0.94012	test-auc:0.86670
+[292]	train-auc:0.94023	test-auc:0.86676
+[293]	train-auc:0.94039	test-auc:0.86681
+[294]	train-auc:0.94060	test-auc:0.86686
+[295]	train-auc:0.94070	test-auc:0.86688
+[296]	train-auc:0.94086	test-auc:0.86684
+[297]	train-auc:0.94105	test-auc:0.86686
+[298]	train-auc:0.94124	test-auc:0.86685
+[299]	train-auc:0.94142	test-auc:0.86685
+[21:24:27] WARNING: ../src/learner.cc:541: 
+Parameters: { n_estimators, num_leaves } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+d1_glucose_max 0.9240640981979965
+[21:26:23] WARNING: ../src/learner.cc:541: 
+Parameters: { n_estimators, num_leaves } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+age 0.5332365769380669
+[21:28:20] WARNING: ../src/learner.cc:541: 
+Parameters: { n_estimators, num_leaves } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+bmi 0.980914946496168

@@ -1,0 +1,60 @@
+2021-01-19 22:55:28,932 INFO    MainThread:1822 [wandb_setup.py:_flush():70] setting env: {}
+2021-01-19 22:55:28,932 INFO    MainThread:1822 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-01-19 22:55:28,932 INFO    MainThread:1822 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-01-19 22:55:28,932 INFO    MainThread:1822 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f768af861d0>
+2021-01-19 22:55:28,932 INFO    MainThread:1822 [wandb_init.py:_log_setup():318] Logging user logs to /home/jupyter/wids/wandb/run-20210119_225528-1w1x8cma/logs/debug.log
+2021-01-19 22:55:28,933 INFO    MainThread:1822 [wandb_init.py:_log_setup():319] Logging internal logs to /home/jupyter/wids/wandb/run-20210119_225528-1w1x8cma/logs/debug-internal.log
+2021-01-19 22:55:28,935 INFO    MainThread:1822 [wandb_run.py:finish():983] finishing run mariapaskevich/wids_2021/2bk7q3na
+2021-01-19 22:55:28,936 INFO    MainThread:1822 [wandb_run.py:_atexit_cleanup():1278] got exitcode: 0
+2021-01-19 22:55:28,936 INFO    MainThread:1822 [wandb_run.py:_restore():1250] restore
+2021-01-19 22:55:29,100 INFO    MainThread:1822 [wandb_run.py:_wait_for_finish():1395] got exit ret: uuid: "ed76c85032ba4be29e78a924acd9620c"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 806
+      total_bytes: 806
+    }
+  }
+}
+
+2021-01-19 22:55:31,112 INFO    MainThread:1822 [wandb_run.py:_wait_for_finish():1395] got exit ret: uuid: "834f08f3f9944eeabff6bea03b24ba14"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 48124
+      total_bytes: 48124
+    }
+  }
+}
+
+2021-01-19 22:55:32,503 INFO    MainThread:1822 [wandb_run.py:_show_summary():1547] rendering summary
+2021-01-19 22:55:32,506 INFO    MainThread:1822 [wandb_run.py:_show_history():1585] rendering history
+2021-01-19 22:55:32,508 INFO    MainThread:1822 [wandb_run.py:_show_files():1614] logging synced files
+2021-01-19 22:55:35,687 INFO    MainThread:1822 [wandb_run.py:_console_start():1308] atexit reg
+2021-01-19 22:55:35,688 INFO    MainThread:1822 [wandb_run.py:_redirect():1175] redirect: SettingsConsole.WRAP
+2021-01-19 22:55:35,688 INFO    MainThread:1822 [wandb_run.py:_redirect():1206] Wrapping output streams.
+2021-01-19 22:55:35,688 INFO    MainThread:1822 [wandb_run.py:_redirect():1222] Redirects installed.
+2021-01-19 23:01:04,226 INFO    MainThread:1822 [wandb_init.py:_pause_backend():239] pausing backend
+2021-01-19 23:02:11,798 INFO    MainThread:1822 [wandb_init.py:_resume_backend():244] resuming backend
+2021-01-19 23:02:13,805 INFO    MainThread:1822 [wandb_init.py:_pause_backend():239] pausing backend
+2021-01-19 23:02:26,689 INFO    MainThread:1822 [wandb_init.py:_resume_backend():244] resuming backend
+2021-01-19 23:02:26,898 INFO    MainThread:1822 [wandb_init.py:_pause_backend():239] pausing backend
+2021-01-19 23:05:25,864 INFO    MainThread:1822 [wandb_init.py:_resume_backend():244] resuming backend
+2021-01-19 23:05:25,869 INFO    MainThread:1822 [wandb_init.py:_pause_backend():239] pausing backend
+2021-01-19 23:05:53,240 INFO    MainThread:1822 [wandb_init.py:_resume_backend():244] resuming backend
+2021-01-19 23:05:53,265 INFO    MainThread:1822 [wandb_init.py:_pause_backend():239] pausing backend
+2021-01-19 23:05:59,107 INFO    MainThread:1822 [wandb_init.py:_resume_backend():244] resuming backend
+2021-01-19 23:05:59,110 INFO    MainThread:1822 [wandb_init.py:_pause_backend():239] pausing backend
+2021-01-19 23:06:01,473 INFO    MainThread:1822 [wandb_init.py:_resume_backend():244] resuming backend
+2021-01-19 23:06:01,490 INFO    MainThread:1822 [wandb_init.py:_pause_backend():239] pausing backend
+2021-01-19 23:06:17,674 INFO    MainThread:1822 [wandb_init.py:_resume_backend():244] resuming backend
+2021-01-19 23:06:17,738 INFO    MainThread:1822 [wandb_init.py:_pause_backend():239] pausing backend

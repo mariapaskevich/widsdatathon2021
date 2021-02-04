@@ -1,0 +1,26 @@
+{
+    "os": "Linux-4.19.0-13-cloud-amd64-x86_64-with-debian-10.7",
+    "python": "3.7.9",
+    "heartbeatAt": "2021-01-23T23:01:16.194186",
+    "startedAt": "2021-01-23T23:01:09.556100",
+    "docker": null,
+    "gpu": "Tesla K80",
+    "gpu_count": 1,
+    "cpu_count": 4,
+    "cuda": "11.0.207",
+    "args": [
+        "-f",
+        "/home/jupyter/.local/share/jupyter/runtime/kernel-48444874-77d0-4ab6-b4fe-dee30548cee1.json"
+    ],
+    "state": "running",
+    "program": "<python with no main file>",
+    "git": {
+        "remote": "https://github.com/mariapaskevich/widsdatathon2021.git",
+        "commit": "b4c1d08fa9e673aafdcea678648234a5c5c23626"
+    },
+    "email": null,
+    "root": "/home/jupyter/wids",
+    "host": "wids-2021",
+    "username": "jupyter",
+    "executable": "/opt/conda/bin/python"
+}

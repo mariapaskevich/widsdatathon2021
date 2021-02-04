@@ -1,0 +1,21 @@
+2021-01-23 21:32:46,483 INFO    MainThread:1794 [wandb_setup.py:_flush():70] setting env: {}
+2021-01-23 21:32:46,483 INFO    MainThread:1794 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-01-23 21:32:46,484 INFO    MainThread:1794 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-01-23 21:32:46,484 INFO    MainThread:1794 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f73394fc410>
+2021-01-23 21:32:46,484 INFO    MainThread:1794 [wandb_init.py:_log_setup():318] Logging user logs to /home/jupyter/wids/wandb/run-20210123_213246-2ti2lzze/logs/debug.log
+2021-01-23 21:32:46,484 INFO    MainThread:1794 [wandb_init.py:_log_setup():319] Logging internal logs to /home/jupyter/wids/wandb/run-20210123_213246-2ti2lzze/logs/debug-internal.log
+2021-01-23 21:32:49,414 INFO    MainThread:1794 [wandb_run.py:_console_start():1308] atexit reg
+2021-01-23 21:32:49,415 INFO    MainThread:1794 [wandb_run.py:_redirect():1175] redirect: SettingsConsole.WRAP
+2021-01-23 21:32:49,415 INFO    MainThread:1794 [wandb_run.py:_redirect():1206] Wrapping output streams.
+2021-01-23 21:32:49,416 INFO    MainThread:1794 [wandb_run.py:_redirect():1222] Redirects installed.
+2021-01-23 21:38:18,770 INFO    MainThread:1794 [wandb_init.py:_pause_backend():239] pausing backend
+2021-01-23 21:39:51,069 INFO    MainThread:1794 [wandb_init.py:_resume_backend():244] resuming backend
+2021-01-23 21:39:51,553 INFO    MainThread:1794 [wandb_setup.py:_flush():70] setting env: {}
+2021-01-23 21:39:51,553 INFO    MainThread:1794 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-01-23 21:39:51,553 INFO    MainThread:1794 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-01-23 21:39:51,553 INFO    MainThread:1794 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f73394fc410>
+2021-01-23 21:39:51,553 INFO    MainThread:1794 [wandb_init.py:_log_setup():318] Logging user logs to /home/jupyter/wids/wandb/run-20210123_213951-3dgvath4/logs/debug.log
+2021-01-23 21:39:51,553 INFO    MainThread:1794 [wandb_init.py:_log_setup():319] Logging internal logs to /home/jupyter/wids/wandb/run-20210123_213951-3dgvath4/logs/debug-internal.log
+2021-01-23 21:39:51,555 INFO    MainThread:1794 [wandb_run.py:finish():983] finishing run mariapaskevich/wids_2021/2ti2lzze
+2021-01-23 21:39:51,555 INFO    MainThread:1794 [wandb_init.py:_jupyter_teardown():249] cleaning up jupyter logic
+2021-01-23 21:39:51,556 INFO    MainThread:1794 [jupyter.py:save_history():208] not saving jupyter history
