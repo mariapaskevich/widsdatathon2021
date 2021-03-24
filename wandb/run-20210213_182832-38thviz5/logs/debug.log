@@ -1,0 +1,48 @@
+2021-02-13 18:28:32,229 INFO    MainThread:1835 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-13 18:28:32,230 INFO    MainThread:1835 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-02-13 18:28:32,230 INFO    MainThread:1835 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-13 18:28:32,231 INFO    MainThread:1835 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f31d267b7d0>
+2021-02-13 18:28:32,231 INFO    MainThread:1835 [wandb_init.py:_log_setup():318] Logging user logs to /home/jupyter/wids/wandb/run-20210213_182832-38thviz5/logs/debug.log
+2021-02-13 18:28:32,231 INFO    MainThread:1835 [wandb_init.py:_log_setup():319] Logging internal logs to /home/jupyter/wids/wandb/run-20210213_182832-38thviz5/logs/debug-internal.log
+2021-02-13 18:28:32,234 INFO    MainThread:1835 [wandb_run.py:finish():983] finishing run mariapaskevich/wids_2021/2493r10r
+2021-02-13 18:28:32,235 INFO    MainThread:1835 [wandb_run.py:_atexit_cleanup():1278] got exitcode: 0
+2021-02-13 18:28:32,235 INFO    MainThread:1835 [wandb_run.py:_restore():1250] restore
+2021-02-13 18:28:32,451 INFO    MainThread:1835 [wandb_run.py:_wait_for_finish():1395] got exit ret: uuid: "6ee36fee77be43e78d8df90852841886"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 762
+      total_bytes: 762
+    }
+  }
+}
+
+2021-02-13 18:28:34,460 INFO    MainThread:1835 [wandb_run.py:_wait_for_finish():1395] got exit ret: uuid: "e660206be706440db621fe4dd11a8501"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+    }
+    pusher_stats {
+      uploaded_bytes: 15203
+      total_bytes: 15203
+    }
+  }
+}
+
+2021-02-13 18:28:35,922 INFO    MainThread:1835 [wandb_run.py:_show_summary():1547] rendering summary
+2021-02-13 18:28:35,925 INFO    MainThread:1835 [wandb_run.py:_show_history():1585] rendering history
+2021-02-13 18:28:35,928 INFO    MainThread:1835 [wandb_run.py:_show_files():1614] logging synced files
+2021-02-13 18:28:38,827 INFO    MainThread:1835 [wandb_run.py:_console_start():1308] atexit reg
+2021-02-13 18:28:38,827 INFO    MainThread:1835 [wandb_run.py:_redirect():1175] redirect: SettingsConsole.WRAP
+2021-02-13 18:28:38,827 INFO    MainThread:1835 [wandb_run.py:_redirect():1206] Wrapping output streams.
+2021-02-13 18:28:38,828 INFO    MainThread:1835 [wandb_run.py:_redirect():1222] Redirects installed.
+2021-02-13 18:33:38,131 INFO    MainThread:1835 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-13 18:36:28,325 INFO    MainThread:1835 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-13 18:36:30,371 INFO    MainThread:1835 [wandb_init.py:_pause_backend():239] pausing backend

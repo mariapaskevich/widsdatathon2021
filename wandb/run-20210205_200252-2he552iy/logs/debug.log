@@ -1,0 +1,49 @@
+2021-02-05 20:02:52,904 INFO    MainThread:2365 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-05 20:02:52,904 INFO    MainThread:2365 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-02-05 20:02:52,904 INFO    MainThread:2365 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-05 20:02:52,904 INFO    MainThread:2365 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fcc4694b350>
+2021-02-05 20:02:52,905 INFO    MainThread:2365 [wandb_init.py:_log_setup():318] Logging user logs to /home/jupyter/wids/wandb/run-20210205_200252-2he552iy/logs/debug.log
+2021-02-05 20:02:52,905 INFO    MainThread:2365 [wandb_init.py:_log_setup():319] Logging internal logs to /home/jupyter/wids/wandb/run-20210205_200252-2he552iy/logs/debug-internal.log
+2021-02-05 20:02:55,595 INFO    MainThread:2365 [wandb_run.py:_console_start():1308] atexit reg
+2021-02-05 20:02:55,596 INFO    MainThread:2365 [wandb_run.py:_redirect():1175] redirect: SettingsConsole.WRAP
+2021-02-05 20:02:55,596 INFO    MainThread:2365 [wandb_run.py:_redirect():1206] Wrapping output streams.
+2021-02-05 20:02:55,597 INFO    MainThread:2365 [wandb_run.py:_redirect():1222] Redirects installed.
+2021-02-05 20:02:55,597 INFO    MainThread:2365 [wandb_config.py:__setitem__():142] config set learning_rate = 0.005 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7fcbdb54c2d0>>
+2021-02-05 20:02:55,597 INFO    MainThread:2365 [wandb_run.py:_config_callback():608] config_cb learning_rate 0.005 None
+2021-02-05 20:02:55,598 INFO    MainThread:2365 [wandb_config.py:__setitem__():142] config set batch_size = 300 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7fcbdb54c2d0>>
+2021-02-05 20:02:55,598 INFO    MainThread:2365 [wandb_run.py:_config_callback():608] config_cb batch_size 300 None
+2021-02-05 20:02:55,598 INFO    MainThread:2365 [wandb_config.py:__setitem__():142] config set activation = relu - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7fcbdb54c2d0>>
+2021-02-05 20:02:55,598 INFO    MainThread:2365 [wandb_run.py:_config_callback():608] config_cb activation relu None
+2021-02-05 20:02:55,599 INFO    MainThread:2365 [wandb_config.py:__setitem__():142] config set optimizer = adam - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7fcbdb54c2d0>>
+2021-02-05 20:02:55,599 INFO    MainThread:2365 [wandb_run.py:_config_callback():608] config_cb optimizer adam None
+2021-02-05 20:02:55,599 INFO    MainThread:2365 [wandb_config.py:__setitem__():142] config set epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7fcbdb54c2d0>>
+2021-02-05 20:02:55,599 INFO    MainThread:2365 [wandb_run.py:_config_callback():608] config_cb epochs 50 None
+2021-02-05 20:02:55,600 INFO    MainThread:2365 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-05 20:02:58,180 INFO    MainThread:2365 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-05 20:02:58,231 INFO    MainThread:2365 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-05 20:03:09,430 INFO    MainThread:2365 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-05 20:03:09,468 INFO    MainThread:2365 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-05 20:05:49,560 INFO    MainThread:2365 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-05 20:05:49,582 INFO    MainThread:2365 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-05 20:05:58,278 INFO    MainThread:2365 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-05 20:05:58,292 INFO    MainThread:2365 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-05 20:06:22,971 INFO    MainThread:2365 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-05 20:06:22,973 INFO    MainThread:2365 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-05 20:06:26,308 INFO    MainThread:2365 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-05 20:07:07,582 INFO    MainThread:2365 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-05 20:10:38,652 INFO    MainThread:2365 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-05 20:10:38,725 INFO    MainThread:2365 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-05 20:11:43,029 INFO    MainThread:2365 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-05 20:11:43,105 INFO    MainThread:2365 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-05 20:12:07,042 INFO    MainThread:2365 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-05 20:15:13,027 INFO    MainThread:2365 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-05 20:16:19,688 INFO    MainThread:2365 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-05 20:16:19,696 INFO    MainThread:2365 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-05 20:16:19,696 INFO    MainThread:2365 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-02-05 20:16:19,696 INFO    MainThread:2365 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-05 20:16:19,696 INFO    MainThread:2365 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fcc4694b350>
+2021-02-05 20:16:19,696 INFO    MainThread:2365 [wandb_init.py:_log_setup():318] Logging user logs to /home/jupyter/wids/wandb/run-20210205_201619-1aq5kyt9/logs/debug.log
+2021-02-05 20:16:19,696 INFO    MainThread:2365 [wandb_init.py:_log_setup():319] Logging internal logs to /home/jupyter/wids/wandb/run-20210205_201619-1aq5kyt9/logs/debug-internal.log
+2021-02-05 20:16:19,698 INFO    MainThread:2365 [wandb_run.py:finish():983] finishing run mariapaskevich/wids_2021/2he552iy
+2021-02-05 20:16:19,699 INFO    MainThread:2365 [wandb_init.py:_jupyter_teardown():249] cleaning up jupyter logic
+2021-02-05 20:16:19,699 INFO    MainThread:2365 [jupyter.py:save_history():208] not saving jupyter history

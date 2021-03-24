@@ -1,0 +1,31 @@
+2021-02-10 20:51:47,303 INFO    MainThread:1873 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-10 20:51:47,303 INFO    MainThread:1873 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-02-10 20:51:47,303 INFO    MainThread:1873 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-10 20:51:47,303 INFO    MainThread:1873 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f9e97cac390>
+2021-02-10 20:51:47,303 INFO    MainThread:1873 [wandb_init.py:_log_setup():318] Logging user logs to /home/jupyter/wids/wandb/run-20210210_205147-ec2akbca/logs/debug.log
+2021-02-10 20:51:47,304 INFO    MainThread:1873 [wandb_init.py:_log_setup():319] Logging internal logs to /home/jupyter/wids/wandb/run-20210210_205147-ec2akbca/logs/debug-internal.log
+2021-02-10 20:51:51,499 INFO    MainThread:1873 [wandb_run.py:_console_start():1308] atexit reg
+2021-02-10 20:51:51,500 INFO    MainThread:1873 [wandb_run.py:_redirect():1175] redirect: SettingsConsole.WRAP
+2021-02-10 20:51:51,501 INFO    MainThread:1873 [wandb_run.py:_redirect():1206] Wrapping output streams.
+2021-02-10 20:51:51,501 INFO    MainThread:1873 [wandb_run.py:_redirect():1222] Redirects installed.
+2021-02-10 20:51:51,501 INFO    MainThread:1873 [wandb_config.py:__setitem__():142] config set learning_rate = 0.0001 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f9e976e3190>>
+2021-02-10 20:51:51,501 INFO    MainThread:1873 [wandb_run.py:_config_callback():608] config_cb learning_rate 0.0001 None
+2021-02-10 20:51:51,502 INFO    MainThread:1873 [wandb_config.py:__setitem__():142] config set batch_size = 100 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f9e976e3190>>
+2021-02-10 20:51:51,502 INFO    MainThread:1873 [wandb_run.py:_config_callback():608] config_cb batch_size 100 None
+2021-02-10 20:51:51,503 INFO    MainThread:1873 [wandb_config.py:__setitem__():142] config set activation = relu - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f9e976e3190>>
+2021-02-10 20:51:51,503 INFO    MainThread:1873 [wandb_run.py:_config_callback():608] config_cb activation relu None
+2021-02-10 20:51:51,503 INFO    MainThread:1873 [wandb_config.py:__setitem__():142] config set optimizer = adam - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f9e976e3190>>
+2021-02-10 20:51:51,503 INFO    MainThread:1873 [wandb_run.py:_config_callback():608] config_cb optimizer adam None
+2021-02-10 20:51:51,504 INFO    MainThread:1873 [wandb_config.py:__setitem__():142] config set epochs = 150 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f9e976e3190>>
+2021-02-10 20:51:51,504 INFO    MainThread:1873 [wandb_run.py:_config_callback():608] config_cb epochs 150 None
+2021-02-10 20:51:53,329 INFO    MainThread:1873 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-10 20:52:26,410 INFO    MainThread:1873 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-10 20:52:26,425 INFO    MainThread:1873 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-10 20:52:26,426 INFO    MainThread:1873 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-02-10 20:52:26,426 INFO    MainThread:1873 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-10 20:52:26,426 INFO    MainThread:1873 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f9e97cac390>
+2021-02-10 20:52:26,426 INFO    MainThread:1873 [wandb_init.py:_log_setup():318] Logging user logs to /home/jupyter/wids/wandb/run-20210210_205226-mutdwc9h/logs/debug.log
+2021-02-10 20:52:26,426 INFO    MainThread:1873 [wandb_init.py:_log_setup():319] Logging internal logs to /home/jupyter/wids/wandb/run-20210210_205226-mutdwc9h/logs/debug-internal.log
+2021-02-10 20:52:26,428 INFO    MainThread:1873 [wandb_run.py:finish():983] finishing run mariapaskevich/wids_2021/ec2akbca
+2021-02-10 20:52:26,428 INFO    MainThread:1873 [wandb_init.py:_jupyter_teardown():249] cleaning up jupyter logic
+2021-02-10 20:52:26,429 INFO    MainThread:1873 [jupyter.py:save_history():208] not saving jupyter history

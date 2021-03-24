@@ -1,0 +1,69 @@
+2021-02-08 22:11:36,978 INFO    MainThread:1800 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-08 22:11:36,979 INFO    MainThread:1800 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-02-08 22:11:36,979 INFO    MainThread:1800 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-08 22:11:36,980 INFO    MainThread:1800 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fd0efd1e990>
+2021-02-08 22:11:36,980 INFO    MainThread:1800 [wandb_init.py:_log_setup():318] Logging user logs to /home/jupyter/wids/wandb/run-20210208_221136-1g4y1hlg/logs/debug.log
+2021-02-08 22:11:36,980 INFO    MainThread:1800 [wandb_init.py:_log_setup():319] Logging internal logs to /home/jupyter/wids/wandb/run-20210208_221136-1g4y1hlg/logs/debug-internal.log
+2021-02-08 22:11:36,982 INFO    MainThread:1800 [wandb_run.py:finish():983] finishing run mariapaskevich/wids_2021/3uow3jrk
+2021-02-08 22:11:36,982 INFO    MainThread:1800 [wandb_init.py:_jupyter_teardown():249] cleaning up jupyter logic
+2021-02-08 22:11:36,982 INFO    MainThread:1800 [jupyter.py:save_history():208] not saving jupyter history
+2021-02-08 22:11:36,983 INFO    MainThread:1800 [wandb_run.py:_atexit_cleanup():1278] got exitcode: 0
+2021-02-08 22:11:36,984 INFO    MainThread:1800 [wandb_run.py:_restore():1250] restore
+2021-02-08 22:11:37,137 INFO    MainThread:1800 [wandb_run.py:_wait_for_finish():1395] got exit ret: uuid: "fe7006c7125c4191891ca2e3f71869d1"
+response {
+  poll_exit_response {
+    file_counts {
+      wandb_count: 1
+      media_count: 1
+      other_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 1085679
+      total_bytes: 1085679
+    }
+  }
+}
+
+2021-02-08 22:11:39,146 INFO    MainThread:1800 [wandb_run.py:_wait_for_finish():1395] got exit ret: uuid: "3e8a1600e8c8424d8cd21d1b77708916"
+response {
+  poll_exit_response {
+    done: true
+    exit_result {
+    }
+    file_counts {
+      wandb_count: 5
+      media_count: 1
+      other_count: 1
+    }
+    pusher_stats {
+      uploaded_bytes: 1264313
+      total_bytes: 1264313
+    }
+  }
+}
+
+2021-02-08 22:11:40,762 INFO    MainThread:1800 [wandb_run.py:_show_summary():1547] rendering summary
+2021-02-08 22:11:40,763 INFO    MainThread:1800 [wandb_run.py:_show_history():1585] rendering history
+2021-02-08 22:11:40,766 INFO    MainThread:1800 [wandb_run.py:_show_files():1614] logging synced files
+2021-02-08 22:11:46,949 INFO    MainThread:1800 [wandb_run.py:_console_start():1308] atexit reg
+2021-02-08 22:11:46,950 INFO    MainThread:1800 [wandb_run.py:_redirect():1175] redirect: SettingsConsole.WRAP
+2021-02-08 22:11:46,950 INFO    MainThread:1800 [wandb_run.py:_redirect():1206] Wrapping output streams.
+2021-02-08 22:11:46,950 INFO    MainThread:1800 [wandb_run.py:_redirect():1222] Redirects installed.
+2021-02-08 22:11:46,951 INFO    MainThread:1800 [wandb_config.py:__setitem__():142] config set learning_rate = 0.0001 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7fd02d526850>>
+2021-02-08 22:11:46,951 INFO    MainThread:1800 [wandb_run.py:_config_callback():608] config_cb learning_rate 0.0001 None
+2021-02-08 22:11:46,952 INFO    MainThread:1800 [wandb_config.py:__setitem__():142] config set batch_size = 1000 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7fd02d526850>>
+2021-02-08 22:11:46,952 INFO    MainThread:1800 [wandb_run.py:_config_callback():608] config_cb batch_size 1000 None
+2021-02-08 22:11:46,952 INFO    MainThread:1800 [wandb_config.py:__setitem__():142] config set activation = relu - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7fd02d526850>>
+2021-02-08 22:11:46,953 INFO    MainThread:1800 [wandb_run.py:_config_callback():608] config_cb activation relu None
+2021-02-08 22:11:46,953 INFO    MainThread:1800 [wandb_config.py:__setitem__():142] config set optimizer = adam - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7fd02d526850>>
+2021-02-08 22:11:46,953 INFO    MainThread:1800 [wandb_run.py:_config_callback():608] config_cb optimizer adam None
+2021-02-08 22:11:46,954 INFO    MainThread:1800 [wandb_config.py:__setitem__():142] config set epochs = 150 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7fd02d526850>>
+2021-02-08 22:11:46,954 INFO    MainThread:1800 [wandb_run.py:_config_callback():608] config_cb epochs 150 None
+2021-02-08 22:19:35,733 INFO    MainThread:1800 [wandb_init.py:_jupyter_setup():270] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fd02d20a750>
+2021-02-08 22:19:35,736 INFO    MainThread:1800 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-08 22:19:35,738 INFO    MainThread:1800 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-02-08 22:19:35,738 INFO    MainThread:1800 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-08 22:19:35,738 INFO    MainThread:1800 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7fd0efd1e990>
+2021-02-08 22:19:35,738 INFO    MainThread:1800 [wandb_init.py:_log_setup():318] Logging user logs to /home/jupyter/wids/wandb/run-20210208_221935-utttennp/logs/debug.log
+2021-02-08 22:19:35,739 INFO    MainThread:1800 [wandb_init.py:_log_setup():319] Logging internal logs to /home/jupyter/wids/wandb/run-20210208_221935-utttennp/logs/debug-internal.log
+2021-02-08 22:19:35,742 INFO    MainThread:1800 [wandb_run.py:finish():983] finishing run mariapaskevich/wids_2021/1g4y1hlg

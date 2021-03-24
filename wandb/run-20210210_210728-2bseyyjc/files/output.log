@@ -1,0 +1,346 @@
+/opt/conda/lib/python3.7/site-packages/xgboost/training.py:19: UserWarning: Old style callback is deprecated.  See: https://xgboost.readthedocs.io/en/latest/python/callbacks.html
+  warnings.warn(f'Old style callback is deprecated.  See: {link}', UserWarning)
+[21:07:32] WARNING: ../src/learner.cc:541: 
+Parameters: { n_estimators, num_leaves } might not be used.
+
+  This may not be accurate due to some parameters are only used in language bindings but
+  passed down to XGBoost core.  Or some parameters are not used but slip through this
+  verification. Please open an issue if you find above cases.
+
+
+[0]	train-auc:0.81540	test-auc:0.80606
+[1]	train-auc:0.82425	test-auc:0.81432
+[2]	train-auc:0.82878	test-auc:0.81816
+[3]	train-auc:0.83059	test-auc:0.82015
+[4]	train-auc:0.83265	test-auc:0.82153
+[5]	train-auc:0.83463	test-auc:0.82289
+[6]	train-auc:0.83572	test-auc:0.82358
+[7]	train-auc:0.83713	test-auc:0.82518
+[8]	train-auc:0.83825	test-auc:0.82637
+[9]	train-auc:0.83922	test-auc:0.82698
+[10]	train-auc:0.84013	test-auc:0.82797
+[11]	train-auc:0.84100	test-auc:0.82859
+[12]	train-auc:0.84230	test-auc:0.82910
+[13]	train-auc:0.84365	test-auc:0.83024
+[14]	train-auc:0.84554	test-auc:0.83169
+[15]	train-auc:0.84627	test-auc:0.83231
+[16]	train-auc:0.84704	test-auc:0.83272
+[17]	train-auc:0.84807	test-auc:0.83347
+[18]	train-auc:0.84911	test-auc:0.83435
+[19]	train-auc:0.85004	test-auc:0.83488
+[20]	train-auc:0.85119	test-auc:0.83562
+[21]	train-auc:0.85190	test-auc:0.83596
+[22]	train-auc:0.85246	test-auc:0.83619
+[23]	train-auc:0.85330	test-auc:0.83683
+[24]	train-auc:0.85417	test-auc:0.83763
+[25]	train-auc:0.85501	test-auc:0.83813
+[26]	train-auc:0.85573	test-auc:0.83849
+[27]	train-auc:0.85654	test-auc:0.83902
+[28]	train-auc:0.85762	test-auc:0.83977
+[29]	train-auc:0.85854	test-auc:0.84030
+[30]	train-auc:0.85949	test-auc:0.84094
+[31]	train-auc:0.86034	test-auc:0.84158
+[32]	train-auc:0.86112	test-auc:0.84195
+[33]	train-auc:0.86197	test-auc:0.84258
+[34]	train-auc:0.86314	test-auc:0.84363
+[35]	train-auc:0.86401	test-auc:0.84413
+[36]	train-auc:0.86471	test-auc:0.84474
+[37]	train-auc:0.86551	test-auc:0.84516
+[38]	train-auc:0.86623	test-auc:0.84574
+[39]	train-auc:0.86673	test-auc:0.84612
+[40]	train-auc:0.86732	test-auc:0.84642
+[41]	train-auc:0.86819	test-auc:0.84683
+[42]	train-auc:0.86881	test-auc:0.84723
+[43]	train-auc:0.86913	test-auc:0.84747
+[44]	train-auc:0.86964	test-auc:0.84776
+[45]	train-auc:0.87023	test-auc:0.84822
+[46]	train-auc:0.87091	test-auc:0.84869
+[47]	train-auc:0.87151	test-auc:0.84894
+[48]	train-auc:0.87185	test-auc:0.84930
+[49]	train-auc:0.87223	test-auc:0.84947
+[50]	train-auc:0.87278	test-auc:0.84976
+[51]	train-auc:0.87312	test-auc:0.85002
+[52]	train-auc:0.87344	test-auc:0.85013
+[53]	train-auc:0.87379	test-auc:0.85036
+[54]	train-auc:0.87408	test-auc:0.85049
+[55]	train-auc:0.87448	test-auc:0.85068
+[56]	train-auc:0.87493	test-auc:0.85089
+[57]	train-auc:0.87528	test-auc:0.85108
+[58]	train-auc:0.87586	test-auc:0.85136
+[59]	train-auc:0.87618	test-auc:0.85161
+[60]	train-auc:0.87671	test-auc:0.85194
+[61]	train-auc:0.87723	test-auc:0.85225
+[62]	train-auc:0.87747	test-auc:0.85249
+[63]	train-auc:0.87767	test-auc:0.85269
+[64]	train-auc:0.87794	test-auc:0.85299
+[65]	train-auc:0.87826	test-auc:0.85313
+[66]	train-auc:0.87845	test-auc:0.85327
+[67]	train-auc:0.87881	test-auc:0.85349
+[68]	train-auc:0.87911	test-auc:0.85362
+[69]	train-auc:0.87926	test-auc:0.85371
+[70]	train-auc:0.87947	test-auc:0.85390
+[71]	train-auc:0.87968	test-auc:0.85400
+[72]	train-auc:0.87999	test-auc:0.85419
+[73]	train-auc:0.88022	test-auc:0.85436
+[74]	train-auc:0.88037	test-auc:0.85449
+[75]	train-auc:0.88050	test-auc:0.85465
+[76]	train-auc:0.88090	test-auc:0.85492
+[77]	train-auc:0.88143	test-auc:0.85511
+[78]	train-auc:0.88156	test-auc:0.85527
+[79]	train-auc:0.88206	test-auc:0.85547
+[80]	train-auc:0.88239	test-auc:0.85561
+[81]	train-auc:0.88260	test-auc:0.85579
+[82]	train-auc:0.88273	test-auc:0.85589
+[83]	train-auc:0.88309	test-auc:0.85606
+[84]	train-auc:0.88329	test-auc:0.85620
+[85]	train-auc:0.88364	test-auc:0.85630
+[86]	train-auc:0.88393	test-auc:0.85638
+[87]	train-auc:0.88414	test-auc:0.85650
+[88]	train-auc:0.88445	test-auc:0.85668
+[89]	train-auc:0.88487	test-auc:0.85683
+[90]	train-auc:0.88511	test-auc:0.85698
+[91]	train-auc:0.88530	test-auc:0.85708
+[92]	train-auc:0.88555	test-auc:0.85719
+[93]	train-auc:0.88580	test-auc:0.85726
+[94]	train-auc:0.88603	test-auc:0.85736
+[95]	train-auc:0.88614	test-auc:0.85748
+[96]	train-auc:0.88638	test-auc:0.85759
+[97]	train-auc:0.88654	test-auc:0.85769
+[98]	train-auc:0.88674	test-auc:0.85782
+[99]	train-auc:0.88695	test-auc:0.85797
+[100]	train-auc:0.88734	test-auc:0.85800
+[101]	train-auc:0.88753	test-auc:0.85811
+[102]	train-auc:0.88770	test-auc:0.85822
+[103]	train-auc:0.88797	test-auc:0.85840
+[104]	train-auc:0.88814	test-auc:0.85846
+[105]	train-auc:0.88826	test-auc:0.85853
+[106]	train-auc:0.88838	test-auc:0.85867
+[107]	train-auc:0.88858	test-auc:0.85878
+[108]	train-auc:0.88890	test-auc:0.85882
+[109]	train-auc:0.88920	test-auc:0.85888
+[110]	train-auc:0.88936	test-auc:0.85897
+[111]	train-auc:0.88962	test-auc:0.85912
+[112]	train-auc:0.88977	test-auc:0.85919
+[113]	train-auc:0.89009	test-auc:0.85932
+[114]	train-auc:0.89021	test-auc:0.85943
+[115]	train-auc:0.89040	test-auc:0.85952
+[116]	train-auc:0.89052	test-auc:0.85959
+[117]	train-auc:0.89065	test-auc:0.85965
+[118]	train-auc:0.89081	test-auc:0.85977
+[119]	train-auc:0.89105	test-auc:0.85982
+[120]	train-auc:0.89119	test-auc:0.85986
+[121]	train-auc:0.89155	test-auc:0.85991
+[122]	train-auc:0.89171	test-auc:0.86003
+[123]	train-auc:0.89188	test-auc:0.86010
+[124]	train-auc:0.89203	test-auc:0.86017
+[125]	train-auc:0.89212	test-auc:0.86024
+[126]	train-auc:0.89236	test-auc:0.86028
+[127]	train-auc:0.89243	test-auc:0.86031
+[128]	train-auc:0.89270	test-auc:0.86036
+[129]	train-auc:0.89288	test-auc:0.86044
+[130]	train-auc:0.89297	test-auc:0.86052
+[131]	train-auc:0.89320	test-auc:0.86054
+[132]	train-auc:0.89351	test-auc:0.86065
+[133]	train-auc:0.89381	test-auc:0.86072
+[134]	train-auc:0.89405	test-auc:0.86074
+[135]	train-auc:0.89415	test-auc:0.86081
+[136]	train-auc:0.89432	test-auc:0.86089
+[137]	train-auc:0.89448	test-auc:0.86098
+[138]	train-auc:0.89462	test-auc:0.86104
+[139]	train-auc:0.89481	test-auc:0.86110
+[140]	train-auc:0.89504	test-auc:0.86134
+[141]	train-auc:0.89513	test-auc:0.86139
+[142]	train-auc:0.89520	test-auc:0.86146
+[143]	train-auc:0.89538	test-auc:0.86155
+[144]	train-auc:0.89550	test-auc:0.86156
+[145]	train-auc:0.89577	test-auc:0.86162
+[146]	train-auc:0.89607	test-auc:0.86169
+[147]	train-auc:0.89615	test-auc:0.86171
+[148]	train-auc:0.89651	test-auc:0.86181
+[149]	train-auc:0.89669	test-auc:0.86187
+[150]	train-auc:0.89684	test-auc:0.86191
+[151]	train-auc:0.89694	test-auc:0.86194
+[152]	train-auc:0.89708	test-auc:0.86200
+[153]	train-auc:0.89730	test-auc:0.86210
+[154]	train-auc:0.89773	test-auc:0.86213
+[155]	train-auc:0.89795	test-auc:0.86221
+[156]	train-auc:0.89815	test-auc:0.86235
+[157]	train-auc:0.89825	test-auc:0.86239
+[158]	train-auc:0.89842	test-auc:0.86246
+[159]	train-auc:0.89857	test-auc:0.86251
+[160]	train-auc:0.89865	test-auc:0.86257
+[161]	train-auc:0.89879	test-auc:0.86264
+[162]	train-auc:0.89902	test-auc:0.86275
+[163]	train-auc:0.89911	test-auc:0.86278
+[164]	train-auc:0.89933	test-auc:0.86283
+[165]	train-auc:0.89968	test-auc:0.86298
+[166]	train-auc:0.89979	test-auc:0.86299
+[167]	train-auc:0.89988	test-auc:0.86305
+[168]	train-auc:0.90015	test-auc:0.86311
+[169]	train-auc:0.90027	test-auc:0.86314
+[170]	train-auc:0.90048	test-auc:0.86320
+[171]	train-auc:0.90054	test-auc:0.86326
+[172]	train-auc:0.90072	test-auc:0.86332
+[173]	train-auc:0.90082	test-auc:0.86338
+[174]	train-auc:0.90095	test-auc:0.86343
+[175]	train-auc:0.90112	test-auc:0.86349
+[176]	train-auc:0.90127	test-auc:0.86356
+[177]	train-auc:0.90147	test-auc:0.86359
+[178]	train-auc:0.90169	test-auc:0.86358
+[179]	train-auc:0.90180	test-auc:0.86363
+[180]	train-auc:0.90198	test-auc:0.86367
+[181]	train-auc:0.90221	test-auc:0.86364
+[182]	train-auc:0.90238	test-auc:0.86367
+[183]	train-auc:0.90257	test-auc:0.86373
+[184]	train-auc:0.90269	test-auc:0.86373
+[185]	train-auc:0.90280	test-auc:0.86382
+[186]	train-auc:0.90287	test-auc:0.86385
+[187]	train-auc:0.90298	test-auc:0.86393
+[188]	train-auc:0.90313	test-auc:0.86400
+[189]	train-auc:0.90334	test-auc:0.86404
+[190]	train-auc:0.90346	test-auc:0.86409
+[191]	train-auc:0.90367	test-auc:0.86415
+[192]	train-auc:0.90379	test-auc:0.86425
+[193]	train-auc:0.90387	test-auc:0.86426
+[194]	train-auc:0.90397	test-auc:0.86433
+[195]	train-auc:0.90404	test-auc:0.86436
+[196]	train-auc:0.90429	test-auc:0.86440
+[197]	train-auc:0.90442	test-auc:0.86441
+[198]	train-auc:0.90461	test-auc:0.86445
+[199]	train-auc:0.90470	test-auc:0.86446
+[200]	train-auc:0.90489	test-auc:0.86453
+[201]	train-auc:0.90496	test-auc:0.86457
+[202]	train-auc:0.90503	test-auc:0.86458
+[203]	train-auc:0.90515	test-auc:0.86463
+[204]	train-auc:0.90539	test-auc:0.86465
+[205]	train-auc:0.90554	test-auc:0.86467
+[206]	train-auc:0.90573	test-auc:0.86480
+[207]	train-auc:0.90594	test-auc:0.86476
+[208]	train-auc:0.90609	test-auc:0.86475
+[209]	train-auc:0.90635	test-auc:0.86480
+[210]	train-auc:0.90638	test-auc:0.86487
+[211]	train-auc:0.90657	test-auc:0.86490
+[212]	train-auc:0.90674	test-auc:0.86495
+[213]	train-auc:0.90682	test-auc:0.86505
+ERROR:root:Internal Python error in the inspect module.
+Below is the traceback from this internal error.
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3418, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-11-5541db318eac>", line 20, in <module>
+    bst = xgb.train(param, xg_train, num_round, watchlist, callbacks=[wandb.xgboost.wandb_callback()])
+  File "/opt/conda/lib/python3.7/site-packages/xgboost/training.py", line 214, in train
+    early_stopping_rounds=early_stopping_rounds)
+  File "/opt/conda/lib/python3.7/site-packages/xgboost/training.py", line 101, in _train_internal
+    bst.update(dtrain, i, obj)
+  File "/opt/conda/lib/python3.7/site-packages/xgboost/core.py", line 1282, in update
+    dtrain.handle))
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2045, in showtraceback
+    stb = value._render_traceback_()
+AttributeError: 'KeyboardInterrupt' object has no attribute '_render_traceback_'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 1170, in get_records
+    return _fixed_getinnerframes(etb, number_of_lines_of_context, tb_offset)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 316, in wrapped
+    return f(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 350, in _fixed_getinnerframes
+    records = fix_frame_records_filenames(inspect.getinnerframes(etb, context))
+  File "/opt/conda/lib/python3.7/inspect.py", line 1502, in getinnerframes
+    frameinfo = (tb.tb_frame,) + getframeinfo(tb, context)
+  File "/opt/conda/lib/python3.7/inspect.py", line 1460, in getframeinfo
+    filename = getsourcefile(frame) or getfile(frame)
+  File "/opt/conda/lib/python3.7/inspect.py", line 696, in getsourcefile
+    if getattr(getmodule(object, filename), '__loader__', None) is not None:
+  File "/opt/conda/lib/python3.7/inspect.py", line 739, in getmodule
+    f = getabsfile(module)
+  File "/opt/conda/lib/python3.7/inspect.py", line 708, in getabsfile
+    _filename = getsourcefile(object) or getfile(object)
+  File "/opt/conda/lib/python3.7/inspect.py", line 693, in getsourcefile
+    if os.path.exists(filename):
+  File "/opt/conda/lib/python3.7/genericpath.py", line 19, in exists
+    os.stat(path)
+KeyboardInterrupt
+ERROR:root:Internal Python error in the inspect module.
+Below is the traceback from this internal error.
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3418, in run_code
+    exec(code_obj, self.user_global_ns, self.user_ns)
+  File "<ipython-input-11-5541db318eac>", line 20, in <module>
+    bst = xgb.train(param, xg_train, num_round, watchlist, callbacks=[wandb.xgboost.wandb_callback()])
+  File "/opt/conda/lib/python3.7/site-packages/xgboost/training.py", line 214, in train
+    early_stopping_rounds=early_stopping_rounds)
+  File "/opt/conda/lib/python3.7/site-packages/xgboost/training.py", line 101, in _train_internal
+    bst.update(dtrain, i, obj)
+  File "/opt/conda/lib/python3.7/site-packages/xgboost/core.py", line 1282, in update
+    dtrain.handle))
+KeyboardInterrupt
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2045, in showtraceback
+    stb = value._render_traceback_()
+AttributeError: 'KeyboardInterrupt' object has no attribute '_render_traceback_'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3338, in run_ast_nodes
+    if (await self.run_code(code, result,  async_=asy)):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 3435, in run_code
+    self.showtraceback(running_compiled_code=True)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2048, in showtraceback
+    value, tb, tb_offset=tb_offset)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 1437, in structured_traceback
+    self, etype, value, tb, tb_offset, number_of_lines_of_context)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 1337, in structured_traceback
+    self, etype, value, tb, tb_offset, number_of_lines_of_context
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 1194, in structured_traceback
+    tb_offset)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 1151, in format_exception_as_a_whole
+    last_unique, recursion_repeat = find_recursion(orig_etype, evalue, records)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 451, in find_recursion
+    return len(records), 0
+TypeError: object of type 'NoneType' has no len()
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/interactiveshell.py", line 2045, in showtraceback
+    stb = value._render_traceback_()
+AttributeError: 'TypeError' object has no attribute '_render_traceback_'
+
+During handling of the above exception, another exception occurred:
+
+Traceback (most recent call last):
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 1170, in get_records
+    return _fixed_getinnerframes(etb, number_of_lines_of_context, tb_offset)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 316, in wrapped
+    return f(*args, **kwargs)
+  File "/opt/conda/lib/python3.7/site-packages/IPython/core/ultratb.py", line 350, in _fixed_getinnerframes
+    records = fix_frame_records_filenames(inspect.getinnerframes(etb, context))
+  File "/opt/conda/lib/python3.7/inspect.py", line 1502, in getinnerframes
+    frameinfo = (tb.tb_frame,) + getframeinfo(tb, context)
+  File "/opt/conda/lib/python3.7/inspect.py", line 1460, in getframeinfo
+    filename = getsourcefile(frame) or getfile(frame)
+  File "/opt/conda/lib/python3.7/inspect.py", line 696, in getsourcefile
+    if getattr(getmodule(object, filename), '__loader__', None) is not None:
+  File "/opt/conda/lib/python3.7/inspect.py", line 742, in getmodule
+    os.path.realpath(f)] = module.__name__
+  File "/opt/conda/lib/python3.7/posixpath.py", line 395, in realpath
+    path, ok = _joinrealpath(filename[:0], filename, {})
+  File "/opt/conda/lib/python3.7/posixpath.py", line 429, in _joinrealpath
+    if not islink(newpath):
+  File "/opt/conda/lib/python3.7/posixpath.py", line 171, in islink
+    st = os.lstat(path)
+KeyboardInterrupt

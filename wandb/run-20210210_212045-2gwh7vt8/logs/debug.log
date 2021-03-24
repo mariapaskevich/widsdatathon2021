@@ -1,0 +1,33 @@
+2021-02-10 21:20:45,710 INFO    MainThread:1900 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-10 21:20:45,710 INFO    MainThread:1900 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-02-10 21:20:45,710 INFO    MainThread:1900 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-10 21:20:45,710 INFO    MainThread:1900 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f62291cc610>
+2021-02-10 21:20:45,711 INFO    MainThread:1900 [wandb_init.py:_log_setup():318] Logging user logs to /home/jupyter/wids/wandb/run-20210210_212045-2gwh7vt8/logs/debug.log
+2021-02-10 21:20:45,711 INFO    MainThread:1900 [wandb_init.py:_log_setup():319] Logging internal logs to /home/jupyter/wids/wandb/run-20210210_212045-2gwh7vt8/logs/debug-internal.log
+2021-02-10 21:20:48,885 INFO    MainThread:1900 [wandb_run.py:_console_start():1308] atexit reg
+2021-02-10 21:20:48,887 INFO    MainThread:1900 [wandb_run.py:_redirect():1175] redirect: SettingsConsole.WRAP
+2021-02-10 21:20:48,888 INFO    MainThread:1900 [wandb_run.py:_redirect():1206] Wrapping output streams.
+2021-02-10 21:20:48,888 INFO    MainThread:1900 [wandb_run.py:_redirect():1222] Redirects installed.
+2021-02-10 21:50:14,041 INFO    MainThread:1900 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-10 21:50:30,412 INFO    MainThread:1900 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-10 21:50:35,295 INFO    MainThread:1900 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-10 21:51:04,739 INFO    MainThread:1900 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-10 21:51:05,087 INFO    MainThread:1900 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-10 21:51:11,781 INFO    MainThread:1900 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-10 21:51:11,801 INFO    MainThread:1900 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-10 21:51:18,192 INFO    MainThread:1900 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-10 21:51:18,572 INFO    MainThread:1900 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-10 21:51:20,380 INFO    MainThread:1900 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-10 21:51:20,701 INFO    MainThread:1900 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-10 21:54:18,897 INFO    MainThread:1900 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-10 21:54:21,330 INFO    MainThread:1900 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-10 21:54:35,357 INFO    MainThread:1900 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-10 21:54:35,366 INFO    MainThread:1900 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-10 21:54:35,368 INFO    MainThread:1900 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-02-10 21:54:35,368 INFO    MainThread:1900 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-10 21:54:35,368 INFO    MainThread:1900 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f62291cc610>
+2021-02-10 21:54:35,368 INFO    MainThread:1900 [wandb_init.py:_log_setup():318] Logging user logs to /home/jupyter/wids/wandb/run-20210210_215435-1l833k4u/logs/debug.log
+2021-02-10 21:54:35,368 INFO    MainThread:1900 [wandb_init.py:_log_setup():319] Logging internal logs to /home/jupyter/wids/wandb/run-20210210_215435-1l833k4u/logs/debug-internal.log
+2021-02-10 21:54:35,370 INFO    MainThread:1900 [wandb_run.py:finish():983] finishing run mariapaskevich/wids_2021/2gwh7vt8
+2021-02-10 21:54:35,370 INFO    MainThread:1900 [wandb_init.py:_jupyter_teardown():249] cleaning up jupyter logic
+2021-02-10 21:54:35,371 INFO    MainThread:1900 [jupyter.py:save_history():208] not saving jupyter history

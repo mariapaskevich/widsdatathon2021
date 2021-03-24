@@ -1,0 +1,41 @@
+2021-02-07 17:24:25,213 INFO    MainThread:2976 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-07 17:24:25,213 INFO    MainThread:2976 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-02-07 17:24:25,213 INFO    MainThread:2976 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-07 17:24:25,213 INFO    MainThread:2976 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7ff9db27e190>
+2021-02-07 17:24:25,214 INFO    MainThread:2976 [wandb_init.py:_log_setup():318] Logging user logs to /home/jupyter/wids/wandb/run-20210207_172425-1n1qvmei/logs/debug.log
+2021-02-07 17:24:25,214 INFO    MainThread:2976 [wandb_init.py:_log_setup():319] Logging internal logs to /home/jupyter/wids/wandb/run-20210207_172425-1n1qvmei/logs/debug-internal.log
+2021-02-07 17:24:31,235 INFO    MainThread:2976 [wandb_run.py:_console_start():1308] atexit reg
+2021-02-07 17:24:31,236 INFO    MainThread:2976 [wandb_run.py:_redirect():1175] redirect: SettingsConsole.WRAP
+2021-02-07 17:24:31,236 INFO    MainThread:2976 [wandb_run.py:_redirect():1206] Wrapping output streams.
+2021-02-07 17:24:31,236 INFO    MainThread:2976 [wandb_run.py:_redirect():1222] Redirects installed.
+2021-02-07 17:24:31,237 INFO    MainThread:2976 [wandb_config.py:__setitem__():142] config set learning_rate = 0.001 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7ff9dbebb710>>
+2021-02-07 17:24:31,237 INFO    MainThread:2976 [wandb_run.py:_config_callback():608] config_cb learning_rate 0.001 None
+2021-02-07 17:24:31,237 INFO    MainThread:2976 [wandb_config.py:__setitem__():142] config set batch_size = 300 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7ff9dbebb710>>
+2021-02-07 17:24:31,238 INFO    MainThread:2976 [wandb_run.py:_config_callback():608] config_cb batch_size 300 None
+2021-02-07 17:24:31,238 INFO    MainThread:2976 [wandb_config.py:__setitem__():142] config set activation = relu - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7ff9dbebb710>>
+2021-02-07 17:24:31,238 INFO    MainThread:2976 [wandb_run.py:_config_callback():608] config_cb activation relu None
+2021-02-07 17:24:31,239 INFO    MainThread:2976 [wandb_config.py:__setitem__():142] config set optimizer = adam - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7ff9dbebb710>>
+2021-02-07 17:24:31,239 INFO    MainThread:2976 [wandb_run.py:_config_callback():608] config_cb optimizer adam None
+2021-02-07 17:24:31,239 INFO    MainThread:2976 [wandb_config.py:__setitem__():142] config set epochs = 150 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7ff9dbebb710>>
+2021-02-07 17:24:31,240 INFO    MainThread:2976 [wandb_run.py:_config_callback():608] config_cb epochs 150 None
+2021-02-07 17:37:47,680 INFO    MainThread:2976 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-07 17:37:51,595 INFO    MainThread:2976 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-07 17:37:53,623 INFO    MainThread:2976 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-07 17:38:34,116 INFO    MainThread:2976 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-07 17:38:34,710 INFO    MainThread:2976 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-07 17:38:45,235 INFO    MainThread:2976 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-07 17:38:46,150 INFO    MainThread:2976 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-07 17:38:57,796 INFO    MainThread:2976 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-07 17:38:58,373 INFO    MainThread:2976 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-07 17:39:10,502 INFO    MainThread:2976 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-07 17:39:10,506 INFO    MainThread:2976 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-07 17:39:19,909 INFO    MainThread:2976 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-07 17:39:20,992 INFO    MainThread:2976 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-07 17:39:38,233 INFO    MainThread:2976 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-07 17:39:39,885 INFO    MainThread:2976 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-07 17:39:55,416 INFO    MainThread:2976 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-07 17:39:56,326 INFO    MainThread:2976 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-07 17:40:11,197 INFO    MainThread:2976 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-07 17:40:12,295 INFO    MainThread:2976 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-07 17:40:39,322 INFO    MainThread:2976 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-07 17:40:40,786 INFO    MainThread:2976 [wandb_init.py:_pause_backend():239] pausing backend

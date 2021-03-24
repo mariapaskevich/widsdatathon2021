@@ -1,0 +1,2 @@
+Epoch 1/150
+WARNING:tensorflow:Model was constructed with shape (None, 177, 1) for input Tensor("flatten_4_input:0", shape=(None, 177, 1), dtype=float32), but it was called on an input with incompatible shape (177, 1, 1).

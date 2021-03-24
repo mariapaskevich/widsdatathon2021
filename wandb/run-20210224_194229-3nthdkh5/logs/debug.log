@@ -1,0 +1,41 @@
+2021-02-24 19:42:29,518 INFO    MainThread:2854 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-24 19:42:29,518 INFO    MainThread:2854 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-02-24 19:42:29,518 INFO    MainThread:2854 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-24 19:42:29,519 INFO    MainThread:2854 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f197d309b10>
+2021-02-24 19:42:29,519 INFO    MainThread:2854 [wandb_init.py:_log_setup():318] Logging user logs to /home/jupyter/wids/wandb/run-20210224_194229-3nthdkh5/logs/debug.log
+2021-02-24 19:42:29,520 INFO    MainThread:2854 [wandb_init.py:_log_setup():319] Logging internal logs to /home/jupyter/wids/wandb/run-20210224_194229-3nthdkh5/logs/debug-internal.log
+2021-02-24 19:42:36,232 INFO    MainThread:2854 [wandb_run.py:_console_start():1308] atexit reg
+2021-02-24 19:42:36,233 INFO    MainThread:2854 [wandb_run.py:_redirect():1175] redirect: SettingsConsole.WRAP
+2021-02-24 19:42:36,234 INFO    MainThread:2854 [wandb_run.py:_redirect():1206] Wrapping output streams.
+2021-02-24 19:42:36,234 INFO    MainThread:2854 [wandb_run.py:_redirect():1222] Redirects installed.
+2021-02-24 19:42:36,235 INFO    MainThread:2854 [wandb_config.py:__setitem__():142] config set learning_rate = 0.0001 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f197cc79290>>
+2021-02-24 19:42:36,235 INFO    MainThread:2854 [wandb_run.py:_config_callback():608] config_cb learning_rate 0.0001 None
+2021-02-24 19:42:36,235 INFO    MainThread:2854 [wandb_config.py:__setitem__():142] config set batch_size = 500 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f197cc79290>>
+2021-02-24 19:42:36,236 INFO    MainThread:2854 [wandb_run.py:_config_callback():608] config_cb batch_size 500 None
+2021-02-24 19:42:36,236 INFO    MainThread:2854 [wandb_config.py:__setitem__():142] config set activation = relu - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f197cc79290>>
+2021-02-24 19:42:36,236 INFO    MainThread:2854 [wandb_run.py:_config_callback():608] config_cb activation relu None
+2021-02-24 19:42:36,237 INFO    MainThread:2854 [wandb_config.py:__setitem__():142] config set optimizer = adam - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f197cc79290>>
+2021-02-24 19:42:36,237 INFO    MainThread:2854 [wandb_run.py:_config_callback():608] config_cb optimizer adam None
+2021-02-24 19:42:36,237 INFO    MainThread:2854 [wandb_config.py:__setitem__():142] config set epochs = 50 - <bound method Run._config_callback of <wandb.sdk.wandb_run.Run object at 0x7f197cc79290>>
+2021-02-24 19:42:36,238 INFO    MainThread:2854 [wandb_run.py:_config_callback():608] config_cb epochs 50 None
+2021-02-24 20:21:18,902 INFO    MainThread:2854 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-24 20:21:18,959 INFO    MainThread:2854 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-24 20:21:18,964 INFO    MainThread:2854 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-24 20:21:18,980 INFO    MainThread:2854 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-24 20:22:27,157 INFO    MainThread:2854 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-24 20:22:27,174 INFO    MainThread:2854 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-24 20:28:10,805 INFO    MainThread:2854 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-24 20:30:32,558 INFO    MainThread:2854 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-24 20:35:51,171 INFO    MainThread:2854 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-24 20:37:17,690 INFO    MainThread:2854 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-24 20:43:01,094 INFO    MainThread:2854 [wandb_init.py:_pause_backend():239] pausing backend
+2021-02-24 21:13:37,906 INFO    MainThread:2854 [wandb_init.py:_resume_backend():244] resuming backend
+2021-02-24 21:13:37,915 INFO    MainThread:2854 [wandb_setup.py:_flush():70] setting env: {}
+2021-02-24 21:13:37,917 INFO    MainThread:2854 [wandb_setup.py:_flush():70] multiprocessing start_methods=fork,spawn,forkserver
+2021-02-24 21:13:37,917 INFO    MainThread:2854 [wandb_setup.py:_flush():70] setting login settings: {}
+2021-02-24 21:13:37,917 INFO    MainThread:2854 [wandb_setup.py:_flush():70] configuring jupyter hooks <wandb.sdk.wandb_init._WandbInit object at 0x7f197d309b10>
+2021-02-24 21:13:37,917 INFO    MainThread:2854 [wandb_init.py:_log_setup():318] Logging user logs to /home/jupyter/wids/wandb/run-20210224_211337-2eda1l08/logs/debug.log
+2021-02-24 21:13:37,918 INFO    MainThread:2854 [wandb_init.py:_log_setup():319] Logging internal logs to /home/jupyter/wids/wandb/run-20210224_211337-2eda1l08/logs/debug-internal.log
+2021-02-24 21:13:37,919 INFO    MainThread:2854 [wandb_run.py:finish():983] finishing run mariapaskevich/wids_2021/3nthdkh5
+2021-02-24 21:13:37,919 INFO    MainThread:2854 [wandb_init.py:_jupyter_teardown():249] cleaning up jupyter logic
+2021-02-24 21:13:37,919 INFO    MainThread:2854 [jupyter.py:save_history():208] not saving jupyter history
